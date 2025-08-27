@@ -1,0 +1,1767 @@
+2020-01-01 00:00:00 Launching analysis for b25acbbd800aa3570aaba5a0bcfcc758 with LEAN Engine v2.5.0.0.17262
+2020-01-01 00:00:00 Accurate daily end-times now enabled by default. See more at https://qnt.co/3YHaWHL. To disable it and use legacy daily bars set self.settings.daily_precise_end_time = False.
+2020-03-13 00:00:00 Running OHLC Correlation Analysis with 50 observations
+2020-03-13 00:00:00 Insufficient clean data: 49 valid rows
+2020-03-16 00:00:00 Running OHLC Correlation Analysis with 51 observations
+2020-03-16 00:00:00 TSLA: 50 valid data points
+2020-03-16 00:00:00 SPY: 50 valid data points
+2020-03-16 00:00:00 QQQ: 50 valid data points
+2020-03-16 00:00:00 VIX: 50 valid data points
+2020-03-16 00:00:00 ============================================================
+2020-03-16 00:00:00 OHLC CORRELATION ANALYSIS RESULTS
+2020-03-16 00:00:00 ============================================================
+2020-03-16 00:00:00 --- CORRELATION SUMMARY ---
+2020-03-16 00:00:00 TSLA_SPY:
+2020-03-16 00:00:00   Pearson (Returns): 0.4996
+2020-03-16 00:00:00   Spearman (Returns): 0.4935
+2020-03-16 00:00:00   Rogers-Zhou Basic: 0.4564
+2020-03-16 00:00:00   Rogers-Zhou Weighted: 0.2956
+2020-03-16 00:00:00 TSLA_QQQ:
+2020-03-16 00:00:00   Pearson (Returns): 0.5500
+2020-03-16 00:00:00   Spearman (Returns): 0.5222
+2020-03-16 00:00:00   Rogers-Zhou Basic: 0.4796
+2020-03-16 00:00:00   Rogers-Zhou Weighted: 0.3318
+2020-03-16 00:00:00 TSLA_VIX:
+2020-03-16 00:00:00   Pearson (Returns): -0.5070
+2020-03-16 00:00:00   Spearman (Returns): -0.4311
+2020-03-16 00:00:00   Rogers-Zhou Basic: -0.2699
+2020-03-16 00:00:00   Rogers-Zhou Weighted: -0.0311
+2020-03-16 00:00:00 QQQ_VIX:
+2020-03-16 00:00:00   Pearson (Returns): -0.9033
+2020-03-16 00:00:00   Spearman (Returns): -0.9413
+2020-03-16 00:00:00   Rogers-Zhou Basic: -0.6763
+2020-03-16 00:00:00   Rogers-Zhou Weighted: -0.5713
+2020-03-16 00:00:00 --- DESCRIPTIVE STATISTICS ---
+2020-03-16 00:00:00 TSLA:
+2020-03-16 00:00:00   Mean Daily Return: 0.004885
+2020-03-16 00:00:00   Volatility (Daily): 0.066617
+2020-03-16 00:00:00   Sharpe Ratio: 1.1641
+2020-03-16 00:00:00   Skewness: -0.3963
+2020-03-16 00:00:00   Kurtosis: 1.8074
+2020-03-16 00:00:00 SPY:
+2020-03-16 00:00:00   Mean Daily Return: -0.003827
+2020-03-16 00:00:00   Volatility (Daily): 0.028713
+2020-03-16 00:00:00   Sharpe Ratio: -2.1158
+2020-03-16 00:00:00   Skewness: -0.5805
+2020-03-16 00:00:00   Kurtosis: 3.9574
+2020-03-16 00:00:00 QQQ:
+2020-03-16 00:00:00   Mean Daily Return: -0.002383
+2020-03-16 00:00:00   Volatility (Daily): 0.028951
+2020-03-16 00:00:00   Sharpe Ratio: -1.3065
+2020-03-16 00:00:00   Skewness: -0.4143
+2020-03-16 00:00:00   Kurtosis: 2.9962
+2020-03-16 00:00:00 VIX:
+2020-03-16 00:00:00   Mean Daily Return: 0.031310
+2020-03-16 00:00:00   Volatility (Daily): 0.131585
+2020-03-16 00:00:00   Sharpe Ratio: 3.7772
+2020-03-16 00:00:00   Skewness: 0.7498
+2020-03-16 00:00:00   Kurtosis: 1.0426
+2020-03-16 00:00:00 --- WIN/LOSS ANALYSIS ---
+2020-03-16 00:00:00 TSLA (VIX Up Days):
+2020-03-16 00:00:00   Total Wins: 12
+2020-03-16 00:00:00   Total Losses: 15
+2020-03-16 00:00:00   Win Rate: 0.444
+2020-03-16 00:00:00 SPY (VIX Up Days):
+2020-03-16 00:00:00   Total Wins: 4
+2020-03-16 00:00:00   Total Losses: 23
+2020-03-16 00:00:00   Win Rate: 0.148
+2020-03-16 00:00:00 QQQ (VIX Up Days):
+2020-03-16 00:00:00   Total Wins: 7
+2020-03-16 00:00:00   Total Losses: 20
+2020-03-16 00:00:00   Win Rate: 0.259
+2020-03-16 00:00:00 --- WEEKLY AGGREGATION ---
+2020-03-16 00:00:00 TSLA:
+2020-03-16 00:00:00   Avg Wins/Week: 1.09
+2020-03-16 00:00:00   Avg Losses/Week: 1.36
+2020-03-16 00:00:00   Weekly Win Rate: 0.444
+2020-03-16 00:00:00 SPY:
+2020-03-16 00:00:00   Avg Wins/Week: 0.36
+2020-03-16 00:00:00   Avg Losses/Week: 2.09
+2020-03-16 00:00:00   Weekly Win Rate: 0.148
+2020-03-16 00:00:00 QQQ:
+2020-03-16 00:00:00   Avg Wins/Week: 0.64
+2020-03-16 00:00:00   Avg Losses/Week: 1.82
+2020-03-16 00:00:00   Weekly Win Rate: 0.259
+2020-03-16 00:00:00 --- CORRELATION METHOD COMPARISON ---
+2020-03-16 00:00:00 TSLA_SPY: Traditional=0.4996, OHLC=0.4564, Diff=-0.0431 (8.6% change)
+2020-03-16 00:00:00 TSLA_QQQ: Traditional=0.5500, OHLC=0.4796, Diff=-0.0703 (12.8% change)
+2020-03-16 00:00:00 TSLA_VIX: Traditional=-0.5070, OHLC=-0.2699, Diff=0.2372 (46.8% change)
+2020-03-16 00:00:00 QQQ_VIX: Traditional=-0.9033, OHLC=-0.6763, Diff=0.2270 (25.1% change)
+2020-03-16 00:00:00 
+================================================================================
+2020-03-16 00:00:00 STRUCTURED DATAFRAME OUTPUT
+2020-03-16 00:00:00 ================================================================================
+2020-03-16 00:00:00 
+--- OHLC SUMMARY DATAFRAME ---
+2020-03-16 00:00:00 ticker     date     open     high      low    close    volume  daily_diff  daily_return_pct  intraday_range_pct
+  TSLA 20200313  39.6667  40.5020  33.4667  36.4413 321092327     -3.2253           -8.1311             19.3059
+   SPY 20200313 242.6989 249.8138 230.0174 248.2102 311936111      5.5113            2.2708              7.9756
+   QQQ 20200313 180.6642 187.8204 172.0303 185.7537 129445178      5.0895            2.8171              8.5006
+   VIX 20200313  71.3100  77.5700  55.1700  57.8300         0    -13.4800          -18.9034             38.7342
+2020-03-16 00:00:00 
+--- CORRELATION MATRIX DATAFRAME ---
+2020-03-16 00:00:00 asset_pair  pearson_returns  spearman_returns  rogers_zhou_basic  rogers_zhou_weighted  garman_klass  correlation_spread
+  TSLA_SPY           0.4996            0.4935             0.4564                0.2956        0.5322             -0.0431
+  TSLA_QQQ           0.5500            0.5222             0.4796                0.3318        0.5430             -0.0703
+  TSLA_VIX          -0.5070           -0.4311            -0.2699               -0.0311        0.2340              0.2372
+   QQQ_VIX          -0.9033           -0.9413            -0.6763               -0.5713        0.4988              0.2270
+2020-03-16 00:00:00 
+--- STATISTICAL SUMMARY DATAFRAME ---
+2020-03-16 00:00:00 ticker  mean_daily_return  volatility_daily  sharpe_ratio  skewness  kurtosis  var_95_pct  var_99_pct  max_return  min_return
+  TSLA           0.004885          0.066617        1.1641   -0.3963    1.8074   -0.131677   -0.168009    0.181445   -0.188450
+   SPY          -0.003827          0.028713       -2.1158   -0.5805    3.9574   -0.048367   -0.091326    0.082028   -0.100569
+   QQQ          -0.002383          0.028951       -1.3065   -0.4143    2.9962   -0.048635   -0.084567    0.081309   -0.096171
+   VIX           0.031310          0.131585        3.7772    0.7498    1.0426   -0.140821   -0.226024    0.382167   -0.266228
+2020-03-16 00:00:00 
+--- WIN/LOSS ANALYSIS DATAFRAME ---
+2020-03-16 00:00:00 ticker  total_observations  wins_vix_up  losses_vix_up  wins_vix_down  losses_vix_down  win_rate_vix_up  win_rate_vix_down  overall_win_rate
+  TSLA                  49           12             15             14                8           0.4444             0.6364            0.5306
+   SPY                  49            4             23             20                2           0.1481             0.9091            0.4898
+   QQQ                  49            7             20             21                1           0.2593             0.9545            0.5714
+2020-03-16 00:00:00 
+--- ROLLING CORRELATION TRENDS DATAFRAME ---
+2020-03-16 00:00:00 asset_pair     date  rolling_30d rolling_90d correlation_trend
+  TSLA_VIX 20200309      -0.5417        None        increasing
+  TSLA_VIX 20200310      -0.5612        None        increasing
+  TSLA_VIX 20200311      -0.5685        None        increasing
+  TSLA_VIX 20200312      -0.6107        None        increasing
+  TSLA_VIX 20200313      -0.5391        None        increasing
+   QQQ_VIX 20200309      -0.8998        None        decreasing
+   QQQ_VIX 20200310      -0.9017        None        decreasing
+   QQQ_VIX 20200311      -0.8953        None        decreasing
+   QQQ_VIX 20200312      -0.9028        None        decreasing
+   QQQ_VIX 20200313      -0.9174        None        decreasing
+2020-03-16 00:00:00 
+================================================================================
+2020-03-16 00:00:00 END DATAFRAME OUTPUT
+2020-03-16 00:00:00 ================================================================================
+
+2020-03-23 00:00:00 Running OHLC Correlation Analysis with 56 observations
+2020-03-23 00:00:00 TSLA: 55 valid data points
+2020-03-23 00:00:00 SPY: 55 valid data points
+2020-03-23 00:00:00 QQQ: 55 valid data points
+2020-03-23 00:00:00 VIX: 55 valid data points
+2020-03-23 00:00:00 ============================================================
+2020-03-23 00:00:00 OHLC CORRELATION ANALYSIS RESULTS
+2020-03-23 00:00:00 ============================================================
+2020-03-23 00:00:00 --- CORRELATION SUMMARY ---
+2020-03-23 00:00:00 TSLA_SPY:
+2020-03-23 00:00:00   Pearson (Returns): 0.5592
+2020-03-23 00:00:00   Spearman (Returns): 0.4788
+2020-03-23 00:00:00   Rogers-Zhou Basic: 0.4813
+2020-03-23 00:00:00   Rogers-Zhou Weighted: 0.2970
+2020-03-23 00:00:00 TSLA_QQQ:
+2020-03-23 00:00:00   Pearson (Returns): 0.5667
+2020-03-23 00:00:00   Spearman (Returns): 0.5075
+2020-03-23 00:00:00   Rogers-Zhou Basic: 0.4837
+2020-03-23 00:00:00   Rogers-Zhou Weighted: 0.3336
+2020-03-23 00:00:00 TSLA_VIX:
+2020-03-23 00:00:00   Pearson (Returns): -0.5179
+2020-03-23 00:00:00   Spearman (Returns): -0.4231
+2020-03-23 00:00:00   Rogers-Zhou Basic: -0.2542
+2020-03-23 00:00:00   Rogers-Zhou Weighted: -0.0464
+2020-03-23 00:00:00 QQQ_VIX:
+2020-03-23 00:00:00   Pearson (Returns): -0.8454
+2020-03-23 00:00:00   Spearman (Returns): -0.8706
+2020-03-23 00:00:00   Rogers-Zhou Basic: -0.4492
+2020-03-23 00:00:00   Rogers-Zhou Weighted: -0.5687
+2020-03-23 00:00:00 --- DESCRIPTIVE STATISTICS ---
+2020-03-23 00:00:00 TSLA:
+2020-03-23 00:00:00   Mean Daily Return: -0.000118
+2020-03-23 00:00:00   Volatility (Daily): 0.077290
+2020-03-23 00:00:00   Sharpe Ratio: -0.0242
+2020-03-23 00:00:00   Skewness: -0.4839
+2020-03-23 00:00:00   Kurtosis: 1.3370
+2020-03-23 00:00:00 SPY:
+2020-03-23 00:00:00   Mean Daily Return: -0.006384
+2020-03-23 00:00:00   Volatility (Daily): 0.033345
+2020-03-23 00:00:00   Sharpe Ratio: -3.0390
+2020-03-23 00:00:00   Skewness: -0.8370
+2020-03-23 00:00:00   Kurtosis: 3.0313
+2020-03-23 00:00:00 QQQ:
+2020-03-23 00:00:00   Mean Daily Return: -0.004372
+2020-03-23 00:00:00   Volatility (Daily): 0.034665
+2020-03-23 00:00:00   Sharpe Ratio: -2.0023
+2020-03-23 00:00:00   Skewness: -0.7953
+2020-03-23 00:00:00   Kurtosis: 3.4107
+2020-03-23 00:00:00 VIX:
+2020-03-23 00:00:00   Mean Daily Return: 0.030869
+2020-03-23 00:00:00   Volatility (Daily): 0.135562
+2020-03-23 00:00:00   Sharpe Ratio: 3.6148
+2020-03-23 00:00:00   Skewness: 0.8704
+2020-03-23 00:00:00   Kurtosis: 0.9402
+2020-03-23 00:00:00 --- WIN/LOSS ANALYSIS ---
+2020-03-23 00:00:00 TSLA (VIX Up Days):
+2020-03-23 00:00:00   Total Wins: 12
+2020-03-23 00:00:00   Total Losses: 17
+2020-03-23 00:00:00   Win Rate: 0.414
+2020-03-23 00:00:00 SPY (VIX Up Days):
+2020-03-23 00:00:00   Total Wins: 4
+2020-03-23 00:00:00   Total Losses: 25
+2020-03-23 00:00:00   Win Rate: 0.138
+2020-03-23 00:00:00 QQQ (VIX Up Days):
+2020-03-23 00:00:00   Total Wins: 7
+2020-03-23 00:00:00   Total Losses: 22
+2020-03-23 00:00:00   Win Rate: 0.241
+2020-03-23 00:00:00 --- WEEKLY AGGREGATION ---
+2020-03-23 00:00:00 TSLA:
+2020-03-23 00:00:00   Avg Wins/Week: 1.00
+2020-03-23 00:00:00   Avg Losses/Week: 1.42
+2020-03-23 00:00:00   Weekly Win Rate: 0.414
+2020-03-23 00:00:00 SPY:
+2020-03-23 00:00:00   Avg Wins/Week: 0.33
+2020-03-23 00:00:00   Avg Losses/Week: 2.08
+2020-03-23 00:00:00   Weekly Win Rate: 0.138
+2020-03-23 00:00:00 QQQ:
+2020-03-23 00:00:00   Avg Wins/Week: 0.58
+2020-03-23 00:00:00   Avg Losses/Week: 1.83
+2020-03-23 00:00:00   Weekly Win Rate: 0.241
+2020-03-23 00:00:00 --- CORRELATION METHOD COMPARISON ---
+2020-03-23 00:00:00 TSLA_SPY: Traditional=0.5592, OHLC=0.4813, Diff=-0.0780 (13.9% change)
+2020-03-23 00:00:00 TSLA_QQQ: Traditional=0.5667, OHLC=0.4837, Diff=-0.0830 (14.7% change)
+2020-03-23 00:00:00 TSLA_VIX: Traditional=-0.5179, OHLC=-0.2542, Diff=0.2637 (50.9% change)
+2020-03-23 00:00:00 QQQ_VIX: Traditional=-0.8454, OHLC=-0.4492, Diff=0.3961 (46.9% change)
+2020-03-23 00:00:00 
+================================================================================
+2020-03-23 00:00:00 STRUCTURED DATAFRAME OUTPUT
+2020-03-23 00:00:00 ================================================================================
+2020-03-23 00:00:00 
+--- OHLC SUMMARY DATAFRAME ---
+2020-03-23 00:00:00 ticker     date     open     high      low    close    volume  daily_diff  daily_return_pct  intraday_range_pct
+  TSLA 20200320  29.2487  31.7987  28.3740  28.5020 405441911     -0.7467           -2.5528             12.0155
+   SPY 20200320 224.8896 226.6232 211.9389 212.1058 328630017    -12.7838           -5.6845              6.9231
+   QQQ 20200320 175.6616 176.6080 164.2753 164.8547 108558833    -10.8068           -6.1521              7.4810
+   VIX 20200320  67.8600  69.5100  57.4200  66.0400         0     -1.8200           -2.6820             18.3071
+2020-03-23 00:00:00 
+--- CORRELATION MATRIX DATAFRAME ---
+2020-03-23 00:00:00 asset_pair  pearson_returns  spearman_returns  rogers_zhou_basic  rogers_zhou_weighted  garman_klass  correlation_spread
+  TSLA_SPY           0.5592            0.4788             0.4813                0.2970        0.6472             -0.0780
+  TSLA_QQQ           0.5667            0.5075             0.4837                0.3336        0.6544             -0.0830
+  TSLA_VIX          -0.5179           -0.4231            -0.2542               -0.0464        0.1894              0.2637
+   QQQ_VIX          -0.8454           -0.8706            -0.4492               -0.5687        0.3781              0.3961
+2020-03-23 00:00:00 
+--- STATISTICAL SUMMARY DATAFRAME ---
+2020-03-23 00:00:00 ticker  mean_daily_return  volatility_daily  sharpe_ratio  skewness  kurtosis  var_95_pct  var_99_pct  max_return  min_return
+  TSLA          -0.000118          0.077290       -0.0242   -0.4839    1.3370   -0.155979   -0.196474    0.181445   -0.205522
+   SPY          -0.006384          0.033345       -3.0390   -0.8370    3.0313   -0.062233   -0.107768    0.082028   -0.115887
+   QQQ          -0.004372          0.034665       -2.0023   -0.7953    3.4107   -0.058589   -0.110939    0.081309   -0.127592
+   VIX           0.030869          0.135562        3.6148    0.8704    0.9402   -0.140736   -0.221837    0.382167   -0.266228
+2020-03-23 00:00:00 
+--- WIN/LOSS ANALYSIS DATAFRAME ---
+2020-03-23 00:00:00 ticker  total_observations  wins_vix_up  losses_vix_up  wins_vix_down  losses_vix_down  win_rate_vix_up  win_rate_vix_down  overall_win_rate
+  TSLA                  54           12             17             15               10           0.4138               0.60            0.5000
+   SPY                  54            4             25             22                3           0.1379               0.88            0.4815
+   QQQ                  54            7             22             23                2           0.2414               0.92            0.5556
+2020-03-23 00:00:00 
+--- ROLLING CORRELATION TRENDS DATAFRAME ---
+2020-03-23 00:00:00 asset_pair     date  rolling_30d rolling_90d correlation_trend
+  TSLA_VIX 20200316      -0.6220        None        decreasing
+  TSLA_VIX 20200317      -0.6259        None        decreasing
+  TSLA_VIX 20200318      -0.5531        None        decreasing
+  TSLA_VIX 20200319      -0.6415        None        decreasing
+  TSLA_VIX 20200320      -0.6376        None        decreasing
+   QQQ_VIX 20200316      -0.9207        None        increasing
+   QQQ_VIX 20200317      -0.9077        None        increasing
+   QQQ_VIX 20200318      -0.8972        None        increasing
+   QQQ_VIX 20200319      -0.8979        None        increasing
+   QQQ_VIX 20200320      -0.8600        None        increasing
+2020-03-23 00:00:00 
+================================================================================
+2020-03-23 00:00:00 END DATAFRAME OUTPUT
+2020-03-23 00:00:00 ================================================================================
+
+2020-03-30 00:00:00 Running OHLC Correlation Analysis with 61 observations
+2020-03-30 00:00:00 TSLA: 60 valid data points
+2020-03-30 00:00:00 SPY: 60 valid data points
+2020-03-30 00:00:00 QQQ: 60 valid data points
+2020-03-30 00:00:00 VIX: 60 valid data points
+2020-03-30 00:00:00 ============================================================
+2020-03-30 00:00:00 OHLC CORRELATION ANALYSIS RESULTS
+2020-03-30 00:00:00 ============================================================
+2020-03-30 00:00:00 --- CORRELATION SUMMARY ---
+2020-03-30 00:00:00 TSLA_SPY:
+2020-03-30 00:00:00   Pearson (Returns): 0.5715
+2020-03-30 00:00:00   Spearman (Returns): 0.4854
+2020-03-30 00:00:00   Rogers-Zhou Basic: 0.4693
+2020-03-30 00:00:00   Rogers-Zhou Weighted: 0.2942
+2020-03-30 00:00:00 TSLA_QQQ:
+2020-03-30 00:00:00   Pearson (Returns): 0.5744
+2020-03-30 00:00:00   Spearman (Returns): 0.4881
+2020-03-30 00:00:00   Rogers-Zhou Basic: 0.4751
+2020-03-30 00:00:00   Rogers-Zhou Weighted: 0.3292
+2020-03-30 00:00:00 TSLA_VIX:
+2020-03-30 00:00:00   Pearson (Returns): -0.4998
+2020-03-30 00:00:00   Spearman (Returns): -0.3875
+2020-03-30 00:00:00   Rogers-Zhou Basic: -0.2791
+2020-03-30 00:00:00   Rogers-Zhou Weighted: -0.0460
+2020-03-30 00:00:00 QQQ_VIX:
+2020-03-30 00:00:00   Pearson (Returns): -0.8082
+2020-03-30 00:00:00   Spearman (Returns): -0.8442
+2020-03-30 00:00:00   Rogers-Zhou Basic: -0.4464
+2020-03-30 00:00:00   Rogers-Zhou Weighted: -0.5579
+2020-03-30 00:00:00 --- DESCRIPTIVE STATISTICS ---
+2020-03-30 00:00:00 TSLA:
+2020-03-30 00:00:00   Mean Daily Return: 0.003026
+2020-03-30 00:00:00   Volatility (Daily): 0.077070
+2020-03-30 00:00:00   Sharpe Ratio: 0.6233
+2020-03-30 00:00:00   Skewness: -0.4270
+2020-03-30 00:00:00   Kurtosis: 1.3260
+2020-03-30 00:00:00 SPY:
+2020-03-30 00:00:00   Mean Daily Return: -0.004110
+2020-03-30 00:00:00   Volatility (Daily): 0.035400
+2020-03-30 00:00:00   Sharpe Ratio: -1.8433
+2020-03-30 00:00:00   Skewness: -0.4155
+2020-03-30 00:00:00   Kurtosis: 2.4654
+2020-03-30 00:00:00 QQQ:
+2020-03-30 00:00:00   Mean Daily Return: -0.002573
+2020-03-30 00:00:00   Volatility (Daily): 0.035673
+2020-03-30 00:00:00   Sharpe Ratio: -1.1448
+2020-03-30 00:00:00   Skewness: -0.5713
+2020-03-30 00:00:00   Kurtosis: 2.8440
+2020-03-30 00:00:00 VIX:
+2020-03-30 00:00:00   Mean Daily Return: 0.028124
+2020-03-30 00:00:00   Volatility (Daily): 0.130803
+2020-03-30 00:00:00   Sharpe Ratio: 3.4132
+2020-03-30 00:00:00   Skewness: 0.9361
+2020-03-30 00:00:00   Kurtosis: 1.2279
+2020-03-30 00:00:00 --- WIN/LOSS ANALYSIS ---
+2020-03-30 00:00:00 TSLA (VIX Up Days):
+2020-03-30 00:00:00   Total Wins: 14
+2020-03-30 00:00:00   Total Losses: 18
+2020-03-30 00:00:00   Win Rate: 0.438
+2020-03-30 00:00:00 SPY (VIX Up Days):
+2020-03-30 00:00:00   Total Wins: 6
+2020-03-30 00:00:00   Total Losses: 26
+2020-03-30 00:00:00   Win Rate: 0.188
+2020-03-30 00:00:00 QQQ (VIX Up Days):
+2020-03-30 00:00:00   Total Wins: 8
+2020-03-30 00:00:00   Total Losses: 24
+2020-03-30 00:00:00   Win Rate: 0.250
+2020-03-30 00:00:00 --- WEEKLY AGGREGATION ---
+2020-03-30 00:00:00 TSLA:
+2020-03-30 00:00:00   Avg Wins/Week: 1.08
+2020-03-30 00:00:00   Avg Losses/Week: 1.38
+2020-03-30 00:00:00   Weekly Win Rate: 0.438
+2020-03-30 00:00:00 SPY:
+2020-03-30 00:00:00   Avg Wins/Week: 0.46
+2020-03-30 00:00:00   Avg Losses/Week: 2.00
+2020-03-30 00:00:00   Weekly Win Rate: 0.188
+2020-03-30 00:00:00 QQQ:
+2020-03-30 00:00:00   Avg Wins/Week: 0.62
+2020-03-30 00:00:00   Avg Losses/Week: 1.85
+2020-03-30 00:00:00   Weekly Win Rate: 0.250
+2020-03-30 00:00:00 --- CORRELATION METHOD COMPARISON ---
+2020-03-30 00:00:00 TSLA_SPY: Traditional=0.5715, OHLC=0.4693, Diff=-0.1022 (17.9% change)
+2020-03-30 00:00:00 TSLA_QQQ: Traditional=0.5744, OHLC=0.4751, Diff=-0.0994 (17.3% change)
+2020-03-30 00:00:00 TSLA_VIX: Traditional=-0.4998, OHLC=-0.2791, Diff=0.2207 (44.2% change)
+2020-03-30 00:00:00 QQQ_VIX: Traditional=-0.8082, OHLC=-0.4464, Diff=0.3618 (44.8% change)
+2020-03-30 00:00:00 
+================================================================================
+2020-03-30 00:00:00 STRUCTURED DATAFRAME OUTPUT
+2020-03-30 00:00:00 ================================================================================
+2020-03-30 00:00:00 
+--- OHLC SUMMARY DATAFRAME ---
+2020-03-30 00:00:00 ticker     date     open     high      low    close    volume  daily_diff  daily_return_pct  intraday_range_pct
+  TSLA 20200327  33.6187  35.0587  32.9340  34.2907 203992610      0.6720            1.9989              6.1960
+   SPY 20200327 234.7440 241.7709 232.7323 234.9294 208879694      0.1854            0.0790              3.8474
+   QQQ 20200327 180.9080 184.4023 178.7398 179.3593  55976748     -1.5487           -0.8561              3.1570
+   VIX 20200327  64.9500  69.1000  61.8000  65.5400         0      0.5900            0.9084             11.1382
+2020-03-30 00:00:00 
+--- CORRELATION MATRIX DATAFRAME ---
+2020-03-30 00:00:00 asset_pair  pearson_returns  spearman_returns  rogers_zhou_basic  rogers_zhou_weighted  garman_klass  correlation_spread
+  TSLA_SPY           0.5715            0.4854             0.4693                0.2942        0.6213             -0.1022
+  TSLA_QQQ           0.5744            0.4881             0.4751                0.3292        0.6429             -0.0994
+  TSLA_VIX          -0.4998           -0.3875            -0.2791               -0.0460        0.1202              0.2207
+   QQQ_VIX          -0.8082           -0.8442            -0.4464               -0.5579        0.2615              0.3618
+2020-03-30 00:00:00 
+--- STATISTICAL SUMMARY DATAFRAME ---
+2020-03-30 00:00:00 ticker  mean_daily_return  volatility_daily  sharpe_ratio  skewness  kurtosis  var_95_pct  var_99_pct  max_return  min_return
+  TSLA           0.003026          0.077070        0.6233   -0.4270    1.3260   -0.148754   -0.195621    0.181445   -0.205522
+   SPY          -0.004110          0.035400       -1.8433   -0.4155    2.4654   -0.054895   -0.107002    0.086731   -0.115887
+   QQQ          -0.002573          0.035673       -1.1448   -0.5713    2.8440   -0.053433   -0.109368    0.081309   -0.127592
+   VIX           0.028124          0.130803        3.4132    0.9361    1.2279   -0.140652   -0.217649    0.382167   -0.266228
+2020-03-30 00:00:00 
+--- WIN/LOSS ANALYSIS DATAFRAME ---
+2020-03-30 00:00:00 ticker  total_observations  wins_vix_up  losses_vix_up  wins_vix_down  losses_vix_down  win_rate_vix_up  win_rate_vix_down  overall_win_rate
+  TSLA                  59           14             18             16               11           0.4375             0.5926            0.5085
+   SPY                  59            6             26             23                4           0.1875             0.8519            0.4915
+   QQQ                  59            8             24             25                2           0.2500             0.9259            0.5593
+2020-03-30 00:00:00 
+--- ROLLING CORRELATION TRENDS DATAFRAME ---
+2020-03-30 00:00:00 asset_pair     date  rolling_30d rolling_90d correlation_trend
+  TSLA_VIX 20200323      -0.6404        None        increasing
+  TSLA_VIX 20200324      -0.6118        None        increasing
+  TSLA_VIX 20200325      -0.6045        None        increasing
+  TSLA_VIX 20200326      -0.6063        None        increasing
+  TSLA_VIX 20200327      -0.6087        None        increasing
+   QQQ_VIX 20200323      -0.8575        None        increasing
+   QQQ_VIX 20200324      -0.8255        None        increasing
+   QQQ_VIX 20200325      -0.8253        None        increasing
+   QQQ_VIX 20200326      -0.8261        None        increasing
+   QQQ_VIX 20200327      -0.8237        None        increasing
+2020-03-30 00:00:00 
+================================================================================
+2020-03-30 00:00:00 END DATAFRAME OUTPUT
+2020-03-30 00:00:00 ================================================================================
+
+2020-04-06 00:00:00 Running OHLC Correlation Analysis with 66 observations
+2020-04-06 00:00:00 TSLA: 65 valid data points
+2020-04-06 00:00:00 SPY: 65 valid data points
+2020-04-06 00:00:00 QQQ: 65 valid data points
+2020-04-06 00:00:00 VIX: 65 valid data points
+2020-04-06 00:00:00 ============================================================
+2020-04-06 00:00:00 OHLC CORRELATION ANALYSIS RESULTS
+2020-04-06 00:00:00 ============================================================
+2020-04-06 00:00:00 --- CORRELATION SUMMARY ---
+2020-04-06 00:00:00 TSLA_SPY:
+2020-04-06 00:00:00   Pearson (Returns): 0.5442
+2020-04-06 00:00:00   Spearman (Returns): 0.4136
+2020-04-06 00:00:00   Rogers-Zhou Basic: 0.4234
+2020-04-06 00:00:00   Rogers-Zhou Weighted: 0.2871
+2020-04-06 00:00:00 TSLA_QQQ:
+2020-04-06 00:00:00   Pearson (Returns): 0.5492
+2020-04-06 00:00:00   Spearman (Returns): 0.4193
+2020-04-06 00:00:00   Rogers-Zhou Basic: 0.4295
+2020-04-06 00:00:00   Rogers-Zhou Weighted: 0.3129
+2020-04-06 00:00:00 TSLA_VIX:
+2020-04-06 00:00:00   Pearson (Returns): -0.4728
+2020-04-06 00:00:00   Spearman (Returns): -0.3460
+2020-04-06 00:00:00   Rogers-Zhou Basic: -0.2281
+2020-04-06 00:00:00   Rogers-Zhou Weighted: -0.0223
+2020-04-06 00:00:00 QQQ_VIX:
+2020-04-06 00:00:00   Pearson (Returns): -0.7948
+2020-04-06 00:00:00   Spearman (Returns): -0.8050
+2020-04-06 00:00:00   Rogers-Zhou Basic: -0.4410
+2020-04-06 00:00:00   Rogers-Zhou Weighted: -0.5562
+2020-04-06 00:00:00 --- DESCRIPTIVE STATISTICS ---
+2020-04-06 00:00:00 TSLA:
+2020-04-06 00:00:00   Mean Daily Return: 0.001710
+2020-04-06 00:00:00   Volatility (Daily): 0.075670
+2020-04-06 00:00:00   Sharpe Ratio: 0.3587
+2020-04-06 00:00:00   Skewness: -0.3874
+2020-04-06 00:00:00   Kurtosis: 1.2744
+2020-04-06 00:00:00 SPY:
+2020-04-06 00:00:00   Mean Daily Return: -0.004115
+2020-04-06 00:00:00   Volatility (Daily): 0.034891
+2020-04-06 00:00:00   Sharpe Ratio: -1.8723
+2020-04-06 00:00:00   Skewness: -0.4017
+2020-04-06 00:00:00   Kurtosis: 2.3587
+2020-04-06 00:00:00 QQQ:
+2020-04-06 00:00:00   Mean Daily Return: -0.002535
+2020-04-06 00:00:00   Volatility (Daily): 0.035103
+2020-04-06 00:00:00   Sharpe Ratio: -1.1465
+2020-04-06 00:00:00   Skewness: -0.5546
+2020-04-06 00:00:00   Kurtosis: 2.7628
+2020-04-06 00:00:00 VIX:
+2020-04-06 00:00:00   Mean Daily Return: 0.020665
+2020-04-06 00:00:00   Volatility (Daily): 0.129653
+2020-04-06 00:00:00   Sharpe Ratio: 2.5302
+2020-04-06 00:00:00   Skewness: 0.9885
+2020-04-06 00:00:00   Kurtosis: 1.3113
+2020-04-06 00:00:00 --- WIN/LOSS ANALYSIS ---
+2020-04-06 00:00:00 TSLA (VIX Up Days):
+2020-04-06 00:00:00   Total Wins: 14
+2020-04-06 00:00:00   Total Losses: 19
+2020-04-06 00:00:00   Win Rate: 0.424
+2020-04-06 00:00:00 SPY (VIX Up Days):
+2020-04-06 00:00:00   Total Wins: 6
+2020-04-06 00:00:00   Total Losses: 27
+2020-04-06 00:00:00   Win Rate: 0.182
+2020-04-06 00:00:00 QQQ (VIX Up Days):
+2020-04-06 00:00:00   Total Wins: 8
+2020-04-06 00:00:00   Total Losses: 25
+2020-04-06 00:00:00   Win Rate: 0.242
+2020-04-06 00:00:00 --- WEEKLY AGGREGATION ---
+2020-04-06 00:00:00 TSLA:
+2020-04-06 00:00:00   Avg Wins/Week: 1.00
+2020-04-06 00:00:00   Avg Losses/Week: 1.36
+2020-04-06 00:00:00   Weekly Win Rate: 0.424
+2020-04-06 00:00:00 SPY:
+2020-04-06 00:00:00   Avg Wins/Week: 0.43
+2020-04-06 00:00:00   Avg Losses/Week: 1.93
+2020-04-06 00:00:00   Weekly Win Rate: 0.182
+2020-04-06 00:00:00 QQQ:
+2020-04-06 00:00:00   Avg Wins/Week: 0.57
+2020-04-06 00:00:00   Avg Losses/Week: 1.79
+2020-04-06 00:00:00   Weekly Win Rate: 0.242
+2020-04-06 00:00:00 --- CORRELATION METHOD COMPARISON ---
+2020-04-06 00:00:00 TSLA_SPY: Traditional=0.5442, OHLC=0.4234, Diff=-0.1208 (22.2% change)
+2020-04-06 00:00:00 TSLA_QQQ: Traditional=0.5492, OHLC=0.4295, Diff=-0.1198 (21.8% change)
+2020-04-06 00:00:00 TSLA_VIX: Traditional=-0.4728, OHLC=-0.2281, Diff=0.2448 (51.8% change)
+2020-04-06 00:00:00 QQQ_VIX: Traditional=-0.7948, OHLC=-0.4410, Diff=0.3538 (44.5% change)
+2020-04-06 00:00:00 
+================================================================================
+2020-04-06 00:00:00 STRUCTURED DATAFRAME OUTPUT
+2020-04-06 00:00:00 ================================================================================
+2020-04-06 00:00:00 
+--- OHLC SUMMARY DATAFRAME ---
+2020-04-06 00:00:00 ticker     date     open     high      low    close    volume  daily_diff  daily_return_pct  intraday_range_pct
+  TSLA 20200403  33.9847  34.3827  31.2293  32.0007 318781667     -1.9840           -5.8379              9.8540
+   SPY 20200403 232.5098 234.8274 227.3370 230.0810 130917576     -2.4288           -1.0446              3.2556
+   QQQ 20200403 179.6013 181.0629 175.4779 177.4912  46513848     -2.1101           -1.1749              3.1466
+   VIX 20200403  51.1100  52.2900  46.7400  46.8000         0     -4.3100           -8.4328             11.8590
+2020-04-06 00:00:00 
+--- CORRELATION MATRIX DATAFRAME ---
+2020-04-06 00:00:00 asset_pair  pearson_returns  spearman_returns  rogers_zhou_basic  rogers_zhou_weighted  garman_klass  correlation_spread
+  TSLA_SPY           0.5442            0.4136             0.4234                0.2871        0.6192             -0.1208
+  TSLA_QQQ           0.5492            0.4193             0.4295                0.3129        0.6400             -0.1198
+  TSLA_VIX          -0.4728           -0.3460            -0.2281               -0.0223        0.1208              0.2448
+   QQQ_VIX          -0.7948           -0.8050            -0.4410               -0.5562        0.2645              0.3538
+2020-04-06 00:00:00 
+--- STATISTICAL SUMMARY DATAFRAME ---
+2020-04-06 00:00:00 ticker  mean_daily_return  volatility_daily  sharpe_ratio  skewness  kurtosis  var_95_pct  var_99_pct  max_return  min_return
+  TSLA           0.001710          0.075670        0.3587   -0.3874    1.2744   -0.144555   -0.194767    0.181445   -0.205522
+   SPY          -0.004115          0.034891       -1.8723   -0.4017    2.3587   -0.051662   -0.106236    0.086731   -0.115887
+   QQQ          -0.002535          0.035103       -1.1465   -0.5546    2.7628   -0.050345   -0.107797    0.081309   -0.127592
+   VIX           0.020665          0.129653        2.5302    0.9885    1.3113   -0.140256   -0.213461    0.382167   -0.266228
+2020-04-06 00:00:00 
+--- WIN/LOSS ANALYSIS DATAFRAME ---
+2020-04-06 00:00:00 ticker  total_observations  wins_vix_up  losses_vix_up  wins_vix_down  losses_vix_down  win_rate_vix_up  win_rate_vix_down  overall_win_rate
+  TSLA                  64           14             19             18               13           0.4242             0.5806            0.5000
+   SPY                  64            6             27             25                6           0.1818             0.8065            0.4844
+   QQQ                  64            8             25             27                4           0.2424             0.8710            0.5469
+2020-04-06 00:00:00 
+--- ROLLING CORRELATION TRENDS DATAFRAME ---
+2020-04-06 00:00:00 asset_pair     date  rolling_30d rolling_90d correlation_trend
+  TSLA_VIX 20200330      -0.5922        None        decreasing
+  TSLA_VIX 20200331      -0.6165        None        decreasing
+  TSLA_VIX 20200401      -0.6105        None        decreasing
+  TSLA_VIX 20200402      -0.5871        None        decreasing
+  TSLA_VIX 20200403      -0.6006        None        decreasing
+   QQQ_VIX 20200330      -0.8293        None        increasing
+   QQQ_VIX 20200331      -0.8244        None        increasing
+   QQQ_VIX 20200401      -0.8190        None        increasing
+   QQQ_VIX 20200402      -0.8209        None        increasing
+   QQQ_VIX 20200403      -0.8100        None        increasing
+2020-04-06 00:00:00 
+================================================================================
+2020-04-06 00:00:00 END DATAFRAME OUTPUT
+2020-04-06 00:00:00 ================================================================================
+
+2020-04-13 00:00:00 Running OHLC Correlation Analysis with 70 observations
+2020-04-13 00:00:00 TSLA: 69 valid data points
+2020-04-13 00:00:00 SPY: 69 valid data points
+2020-04-13 00:00:00 QQQ: 69 valid data points
+2020-04-13 00:00:00 VIX: 69 valid data points
+2020-04-13 00:00:00 ============================================================
+2020-04-13 00:00:00 OHLC CORRELATION ANALYSIS RESULTS
+2020-04-13 00:00:00 ============================================================
+2020-04-13 00:00:00 --- CORRELATION SUMMARY ---
+2020-04-13 00:00:00 TSLA_SPY:
+2020-04-13 00:00:00   Pearson (Returns): 0.5498
+2020-04-13 00:00:00   Spearman (Returns): 0.4323
+2020-04-13 00:00:00   Rogers-Zhou Basic: 0.4380
+2020-04-13 00:00:00   Rogers-Zhou Weighted: 0.2847
+2020-04-13 00:00:00 TSLA_QQQ:
+2020-04-13 00:00:00   Pearson (Returns): 0.5537
+2020-04-13 00:00:00   Spearman (Returns): 0.4232
+2020-04-13 00:00:00   Rogers-Zhou Basic: 0.4442
+2020-04-13 00:00:00   Rogers-Zhou Weighted: 0.3101
+2020-04-13 00:00:00 TSLA_VIX:
+2020-04-13 00:00:00   Pearson (Returns): -0.4727
+2020-04-13 00:00:00   Spearman (Returns): -0.3375
+2020-04-13 00:00:00   Rogers-Zhou Basic: -0.2389
+2020-04-13 00:00:00   Rogers-Zhou Weighted: -0.0195
+2020-04-13 00:00:00 QQQ_VIX:
+2020-04-13 00:00:00   Pearson (Returns): -0.7827
+2020-04-13 00:00:00   Spearman (Returns): -0.7980
+2020-04-13 00:00:00   Rogers-Zhou Basic: -0.4381
+2020-04-13 00:00:00   Rogers-Zhou Weighted: -0.5196
+2020-04-13 00:00:00 --- DESCRIPTIVE STATISTICS ---
+2020-04-13 00:00:00 TSLA:
+2020-04-13 00:00:00   Mean Daily Return: 0.004213
+2020-04-13 00:00:00   Volatility (Daily): 0.074306
+2020-04-13 00:00:00   Sharpe Ratio: 0.9001
+2020-04-13 00:00:00   Skewness: -0.4664
+2020-04-13 00:00:00   Kurtosis: 1.3868
+2020-04-13 00:00:00 SPY:
+2020-04-13 00:00:00   Mean Daily Return: -0.002194
+2020-04-13 00:00:00   Volatility (Daily): 0.035196
+2020-04-13 00:00:00   Sharpe Ratio: -0.9898
+2020-04-13 00:00:00   Skewness: -0.3990
+2020-04-13 00:00:00   Kurtosis: 2.1710
+2020-04-13 00:00:00 QQQ:
+2020-04-13 00:00:00   Mean Daily Return: -0.001046
+2020-04-13 00:00:00   Volatility (Daily): 0.035235
+2020-04-13 00:00:00   Sharpe Ratio: -0.4714
+2020-04-13 00:00:00   Skewness: -0.5118
+2020-04-13 00:00:00   Kurtosis: 2.6670
+2020-04-13 00:00:00 VIX:
+2020-04-13 00:00:00   Mean Daily Return: 0.017742
+2020-04-13 00:00:00   Volatility (Daily): 0.126621
+2020-04-13 00:00:00   Sharpe Ratio: 2.2243
+2020-04-13 00:00:00   Skewness: 1.0579
+2020-04-13 00:00:00   Kurtosis: 1.5511
+2020-04-13 00:00:00 --- WIN/LOSS ANALYSIS ---
+2020-04-13 00:00:00 TSLA (VIX Up Days):
+2020-04-13 00:00:00   Total Wins: 15
+2020-04-13 00:00:00   Total Losses: 19
+2020-04-13 00:00:00   Win Rate: 0.441
+2020-04-13 00:00:00 SPY (VIX Up Days):
+2020-04-13 00:00:00   Total Wins: 7
+2020-04-13 00:00:00   Total Losses: 27
+2020-04-13 00:00:00   Win Rate: 0.206
+2020-04-13 00:00:00 QQQ (VIX Up Days):
+2020-04-13 00:00:00   Total Wins: 8
+2020-04-13 00:00:00   Total Losses: 26
+2020-04-13 00:00:00   Win Rate: 0.235
+2020-04-13 00:00:00 --- WEEKLY AGGREGATION ---
+2020-04-13 00:00:00 TSLA:
+2020-04-13 00:00:00   Avg Wins/Week: 1.00
+2020-04-13 00:00:00   Avg Losses/Week: 1.27
+2020-04-13 00:00:00   Weekly Win Rate: 0.441
+2020-04-13 00:00:00 SPY:
+2020-04-13 00:00:00   Avg Wins/Week: 0.47
+2020-04-13 00:00:00   Avg Losses/Week: 1.80
+2020-04-13 00:00:00   Weekly Win Rate: 0.206
+2020-04-13 00:00:00 QQQ:
+2020-04-13 00:00:00   Avg Wins/Week: 0.53
+2020-04-13 00:00:00   Avg Losses/Week: 1.73
+2020-04-13 00:00:00   Weekly Win Rate: 0.235
+2020-04-13 00:00:00 --- CORRELATION METHOD COMPARISON ---
+2020-04-13 00:00:00 TSLA_SPY: Traditional=0.5498, OHLC=0.4380, Diff=-0.1118 (20.3% change)
+2020-04-13 00:00:00 TSLA_QQQ: Traditional=0.5537, OHLC=0.4442, Diff=-0.1095 (19.8% change)
+2020-04-13 00:00:00 TSLA_VIX: Traditional=-0.4727, OHLC=-0.2389, Diff=0.2337 (49.5% change)
+2020-04-13 00:00:00 QQQ_VIX: Traditional=-0.7827, OHLC=-0.4381, Diff=0.3446 (44.0% change)
+2020-04-13 00:00:00 
+================================================================================
+2020-04-13 00:00:00 STRUCTURED DATAFRAME OUTPUT
+2020-04-13 00:00:00 ================================================================================
+2020-04-13 00:00:00 
+--- OHLC SUMMARY DATAFRAME ---
+2020-04-13 00:00:00 ticker     date     open     high      low    close    volume  daily_diff  daily_return_pct  intraday_range_pct
+  TSLA 20200409  37.4847  38.3447  37.1467  38.2000 191961469      0.7153            1.9083              3.1361
+   SPY 20200409 257.5398 260.6825 255.3798 257.9014 176556657      0.3615            0.1404              2.0561
+   QQQ 20200409 195.8627 196.7048 192.6491 194.4204  63323760     -1.4422           -0.7363              2.0860
+   VIX 20200409  43.0000  45.7300  41.3900  41.6700         0     -1.3300           -3.0930             10.4152
+2020-04-13 00:00:00 
+--- CORRELATION MATRIX DATAFRAME ---
+2020-04-13 00:00:00 asset_pair  pearson_returns  spearman_returns  rogers_zhou_basic  rogers_zhou_weighted  garman_klass  correlation_spread
+  TSLA_SPY           0.5498            0.4323             0.4380                0.2847        0.6172             -0.1118
+  TSLA_QQQ           0.5537            0.4232             0.4442                0.3101        0.6404             -0.1095
+  TSLA_VIX          -0.4727           -0.3375            -0.2389               -0.0195        0.1334              0.2337
+   QQQ_VIX          -0.7827           -0.7980            -0.4381               -0.5196        0.2685              0.3446
+2020-04-13 00:00:00 
+--- STATISTICAL SUMMARY DATAFRAME ---
+2020-04-13 00:00:00 ticker  mean_daily_return  volatility_daily  sharpe_ratio  skewness  kurtosis  var_95_pct  var_99_pct  max_return  min_return
+  TSLA           0.004213          0.074306        0.9001   -0.4664    1.3868   -0.142809   -0.194084    0.181445   -0.205522
+   SPY          -0.002194          0.035196       -0.9898   -0.3990    2.1710   -0.051266   -0.105624    0.086731   -0.115887
+   QQQ          -0.001046          0.035235       -0.4714   -0.5118    2.6670   -0.048977   -0.106540    0.081309   -0.127592
+   VIX           0.017742          0.126621        2.2243    1.0579    1.5511   -0.139774   -0.210111    0.382167   -0.266228
+2020-04-13 00:00:00 
+--- WIN/LOSS ANALYSIS DATAFRAME ---
+2020-04-13 00:00:00 ticker  total_observations  wins_vix_up  losses_vix_up  wins_vix_down  losses_vix_down  win_rate_vix_up  win_rate_vix_down  overall_win_rate
+  TSLA                  68           15             19             21               13           0.4412             0.6176            0.5294
+   SPY                  68            7             27             28                6           0.2059             0.8235            0.5147
+   QQQ                  68            8             26             30                4           0.2353             0.8824            0.5588
+2020-04-13 00:00:00 
+--- ROLLING CORRELATION TRENDS DATAFRAME ---
+2020-04-13 00:00:00 asset_pair     date  rolling_30d rolling_90d correlation_trend
+  TSLA_VIX 20200403      -0.6006        None        increasing
+  TSLA_VIX 20200406      -0.6033        None        increasing
+  TSLA_VIX 20200407      -0.5927        None        increasing
+  TSLA_VIX 20200408      -0.5945        None        increasing
+  TSLA_VIX 20200409      -0.5534        None        increasing
+   QQQ_VIX 20200403      -0.8100        None        decreasing
+   QQQ_VIX 20200406      -0.8186        None        decreasing
+   QQQ_VIX 20200407      -0.8167        None        decreasing
+   QQQ_VIX 20200408      -0.8181        None        decreasing
+   QQQ_VIX 20200409      -0.8270        None        decreasing
+2020-04-13 00:00:00 
+================================================================================
+2020-04-13 00:00:00 END DATAFRAME OUTPUT
+2020-04-13 00:00:00 ================================================================================
+
+2020-04-20 00:00:00 Running OHLC Correlation Analysis with 75 observations
+2020-04-20 00:00:00 TSLA: 74 valid data points
+2020-04-20 00:00:00 SPY: 74 valid data points
+2020-04-20 00:00:00 QQQ: 74 valid data points
+2020-04-20 00:00:00 VIX: 74 valid data points
+2020-04-20 00:00:00 ============================================================
+2020-04-20 00:00:00 OHLC CORRELATION ANALYSIS RESULTS
+2020-04-20 00:00:00 ============================================================
+2020-04-20 00:00:00 --- CORRELATION SUMMARY ---
+2020-04-20 00:00:00 TSLA_SPY:
+2020-04-20 00:00:00   Pearson (Returns): 0.5350
+2020-04-20 00:00:00   Spearman (Returns): 0.4045
+2020-04-20 00:00:00   Rogers-Zhou Basic: 0.4308
+2020-04-20 00:00:00   Rogers-Zhou Weighted: 0.2714
+2020-04-20 00:00:00 TSLA_QQQ:
+2020-04-20 00:00:00   Pearson (Returns): 0.5568
+2020-04-20 00:00:00   Spearman (Returns): 0.4334
+2020-04-20 00:00:00   Rogers-Zhou Basic: 0.4343
+2020-04-20 00:00:00   Rogers-Zhou Weighted: 0.3031
+2020-04-20 00:00:00 TSLA_VIX:
+2020-04-20 00:00:00   Pearson (Returns): -0.4721
+2020-04-20 00:00:00   Spearman (Returns): -0.3355
+2020-04-20 00:00:00   Rogers-Zhou Basic: -0.2462
+2020-04-20 00:00:00   Rogers-Zhou Weighted: -0.0366
+2020-04-20 00:00:00 QQQ_VIX:
+2020-04-20 00:00:00   Pearson (Returns): -0.7856
+2020-04-20 00:00:00   Spearman (Returns): -0.7961
+2020-04-20 00:00:00   Rogers-Zhou Basic: -0.4428
+2020-04-20 00:00:00   Rogers-Zhou Weighted: -0.5306
+2020-04-20 00:00:00 --- DESCRIPTIVE STATISTICS ---
+2020-04-20 00:00:00 TSLA:
+2020-04-20 00:00:00   Mean Daily Return: 0.007683
+2020-04-20 00:00:00   Volatility (Daily): 0.073782
+2020-04-20 00:00:00   Sharpe Ratio: 1.6530
+2020-04-20 00:00:00   Skewness: -0.5003
+2020-04-20 00:00:00   Kurtosis: 1.4033
+2020-04-20 00:00:00 SPY:
+2020-04-20 00:00:00   Mean Daily Return: -0.001635
+2020-04-20 00:00:00   Volatility (Daily): 0.034410
+2020-04-20 00:00:00   Sharpe Ratio: -0.7542
+2020-04-20 00:00:00   Skewness: -0.4301
+2020-04-20 00:00:00   Kurtosis: 2.2928
+2020-04-20 00:00:00 QQQ:
+2020-04-20 00:00:00   Mean Daily Return: -0.000024
+2020-04-20 00:00:00   Volatility (Daily): 0.034507
+2020-04-20 00:00:00   Sharpe Ratio: -0.0112
+2020-04-20 00:00:00   Skewness: -0.5655
+2020-04-20 00:00:00   Kurtosis: 2.8133
+2020-04-20 00:00:00 VIX:
+2020-04-20 00:00:00   Mean Daily Return: 0.015318
+2020-04-20 00:00:00   Volatility (Daily): 0.123327
+2020-04-20 00:00:00   Sharpe Ratio: 1.9717
+2020-04-20 00:00:00   Skewness: 1.1141
+2020-04-20 00:00:00   Kurtosis: 1.7908
+2020-04-20 00:00:00 --- WIN/LOSS ANALYSIS ---
+2020-04-20 00:00:00 TSLA (VIX Up Days):
+2020-04-20 00:00:00   Total Wins: 16
+2020-04-20 00:00:00   Total Losses: 19
+2020-04-20 00:00:00   Win Rate: 0.457
+2020-04-20 00:00:00 SPY (VIX Up Days):
+2020-04-20 00:00:00   Total Wins: 7
+2020-04-20 00:00:00   Total Losses: 28
+2020-04-20 00:00:00   Win Rate: 0.200
+2020-04-20 00:00:00 QQQ (VIX Up Days):
+2020-04-20 00:00:00   Total Wins: 8
+2020-04-20 00:00:00   Total Losses: 27
+2020-04-20 00:00:00   Win Rate: 0.229
+2020-04-20 00:00:00 --- WEEKLY AGGREGATION ---
+2020-04-20 00:00:00 TSLA:
+2020-04-20 00:00:00   Avg Wins/Week: 1.00
+2020-04-20 00:00:00   Avg Losses/Week: 1.19
+2020-04-20 00:00:00   Weekly Win Rate: 0.457
+2020-04-20 00:00:00 SPY:
+2020-04-20 00:00:00   Avg Wins/Week: 0.44
+2020-04-20 00:00:00   Avg Losses/Week: 1.75
+2020-04-20 00:00:00   Weekly Win Rate: 0.200
+2020-04-20 00:00:00 QQQ:
+2020-04-20 00:00:00   Avg Wins/Week: 0.50
+2020-04-20 00:00:00   Avg Losses/Week: 1.69
+2020-04-20 00:00:00   Weekly Win Rate: 0.229
+2020-04-20 00:00:00 --- CORRELATION METHOD COMPARISON ---
+2020-04-20 00:00:00 TSLA_SPY: Traditional=0.5350, OHLC=0.4308, Diff=-0.1041 (19.5% change)
+2020-04-20 00:00:00 TSLA_QQQ: Traditional=0.5568, OHLC=0.4343, Diff=-0.1225 (22.0% change)
+2020-04-20 00:00:00 TSLA_VIX: Traditional=-0.4721, OHLC=-0.2462, Diff=0.2259 (47.8% change)
+2020-04-20 00:00:00 QQQ_VIX: Traditional=-0.7856, OHLC=-0.4428, Diff=0.3428 (43.6% change)
+2020-04-20 00:00:00 
+================================================================================
+2020-04-20 00:00:00 STRUCTURED DATAFRAME OUTPUT
+2020-04-20 00:00:00 ================================================================================
+2020-04-20 00:00:00 
+--- OHLC SUMMARY DATAFRAME ---
+2020-04-20 00:00:00 ticker     date     open     high      low    close    volume  daily_diff  daily_return_pct  intraday_range_pct
+  TSLA 20200417  51.5280  51.6633  49.8407  50.2593 185156869     -1.2687           -2.4621              3.6265
+   SPY 20200417 264.5853 266.3374 261.7949 265.7255 140214222      1.1403            0.4310              1.7095
+   QQQ 20200417 209.2396 209.5687 205.2807 208.3878  59741856     -0.8518           -0.4071              2.0577
+   VIX 20200417  39.5000  40.2600  37.6300  38.1500         0     -1.3500           -3.4177              6.8938
+2020-04-20 00:00:00 
+--- CORRELATION MATRIX DATAFRAME ---
+2020-04-20 00:00:00 asset_pair  pearson_returns  spearman_returns  rogers_zhou_basic  rogers_zhou_weighted  garman_klass  correlation_spread
+  TSLA_SPY           0.5350            0.4045             0.4308                0.2714        0.6188             -0.1041
+  TSLA_QQQ           0.5568            0.4334             0.4343                0.3031        0.6413             -0.1225
+  TSLA_VIX          -0.4721           -0.3355            -0.2462               -0.0366        0.1408              0.2259
+   QQQ_VIX          -0.7856           -0.7961            -0.4428               -0.5306        0.2776              0.3428
+2020-04-20 00:00:00 
+--- STATISTICAL SUMMARY DATAFRAME ---
+2020-04-20 00:00:00 ticker  mean_daily_return  volatility_daily  sharpe_ratio  skewness  kurtosis  var_95_pct  var_99_pct  max_return  min_return
+  TSLA           0.007683          0.073782        1.6530   -0.5003    1.4033   -0.140626   -0.193231    0.181445   -0.205522
+   SPY          -0.001635          0.034410       -0.7542   -0.4301    2.2928   -0.050770   -0.104858    0.086731   -0.115887
+   QQQ          -0.000024          0.034507       -0.0112   -0.5655    2.8133   -0.047268   -0.104969    0.081309   -0.127592
+   VIX           0.015318          0.123327        1.9717    1.1141    1.7908   -0.139171   -0.205923    0.382167   -0.266228
+2020-04-20 00:00:00 
+--- WIN/LOSS ANALYSIS DATAFRAME ---
+2020-04-20 00:00:00 ticker  total_observations  wins_vix_up  losses_vix_up  wins_vix_down  losses_vix_down  win_rate_vix_up  win_rate_vix_down  overall_win_rate
+  TSLA                  73           16             19             25               13           0.4571             0.6579            0.5616
+   SPY                  73            7             28             31                7           0.2000             0.8158            0.5205
+   QQQ                  73            8             27             34                4           0.2286             0.8947            0.5753
+2020-04-20 00:00:00 
+--- ROLLING CORRELATION TRENDS DATAFRAME ---
+2020-04-20 00:00:00 asset_pair     date  rolling_30d rolling_90d correlation_trend
+  TSLA_VIX 20200413      -0.5365        None        increasing
+  TSLA_VIX 20200414      -0.5195        None        increasing
+  TSLA_VIX 20200415      -0.5150        None        increasing
+  TSLA_VIX 20200416      -0.5229        None        increasing
+  TSLA_VIX 20200417      -0.5250        None        increasing
+   QQQ_VIX 20200413      -0.8274        None        increasing
+   QQQ_VIX 20200414      -0.8232        None        increasing
+   QQQ_VIX 20200415      -0.8200        None        increasing
+   QQQ_VIX 20200416      -0.8152        None        increasing
+   QQQ_VIX 20200417      -0.8209        None        increasing
+2020-04-20 00:00:00 
+================================================================================
+2020-04-20 00:00:00 END DATAFRAME OUTPUT
+2020-04-20 00:00:00 ================================================================================
+
+2020-04-27 00:00:00 Running OHLC Correlation Analysis with 80 observations
+2020-04-27 00:00:00 TSLA: 79 valid data points
+2020-04-27 00:00:00 SPY: 79 valid data points
+2020-04-27 00:00:00 QQQ: 79 valid data points
+2020-04-27 00:00:00 VIX: 79 valid data points
+2020-04-27 00:00:00 ============================================================
+2020-04-27 00:00:00 OHLC CORRELATION ANALYSIS RESULTS
+2020-04-27 00:00:00 ============================================================
+2020-04-27 00:00:00 --- CORRELATION SUMMARY ---
+2020-04-27 00:00:00 TSLA_SPY:
+2020-04-27 00:00:00   Pearson (Returns): 0.5437
+2020-04-27 00:00:00   Spearman (Returns): 0.4353
+2020-04-27 00:00:00   Rogers-Zhou Basic: 0.4149
+2020-04-27 00:00:00   Rogers-Zhou Weighted: 0.2826
+2020-04-27 00:00:00 TSLA_QQQ:
+2020-04-27 00:00:00   Pearson (Returns): 0.5687
+2020-04-27 00:00:00   Spearman (Returns): 0.4701
+2020-04-27 00:00:00   Rogers-Zhou Basic: 0.4263
+2020-04-27 00:00:00   Rogers-Zhou Weighted: 0.3201
+2020-04-27 00:00:00 TSLA_VIX:
+2020-04-27 00:00:00   Pearson (Returns): -0.4701
+2020-04-27 00:00:00   Spearman (Returns): -0.3580
+2020-04-27 00:00:00   Rogers-Zhou Basic: -0.2457
+2020-04-27 00:00:00   Rogers-Zhou Weighted: -0.0813
+2020-04-27 00:00:00 QQQ_VIX:
+2020-04-27 00:00:00   Pearson (Returns): -0.7799
+2020-04-27 00:00:00   Spearman (Returns): -0.8010
+2020-04-27 00:00:00   Rogers-Zhou Basic: -0.4453
+2020-04-27 00:00:00   Rogers-Zhou Weighted: -0.5518
+2020-04-27 00:00:00 --- DESCRIPTIVE STATISTICS ---
+2020-04-27 00:00:00 TSLA:
+2020-04-27 00:00:00   Mean Daily Return: 0.006692
+2020-04-27 00:00:00   Volatility (Daily): 0.072613
+2020-04-27 00:00:00   Sharpe Ratio: 1.4630
+2020-04-27 00:00:00   Skewness: -0.4708
+2020-04-27 00:00:00   Kurtosis: 1.3861
+2020-04-27 00:00:00 SPY:
+2020-04-27 00:00:00   Mean Daily Return: -0.001695
+2020-04-27 00:00:00   Volatility (Daily): 0.033645
+2020-04-27 00:00:00   Sharpe Ratio: -0.7998
+2020-04-27 00:00:00   Skewness: -0.4282
+2020-04-27 00:00:00   Kurtosis: 2.4060
+2020-04-27 00:00:00 QQQ:
+2020-04-27 00:00:00   Mean Daily Return: -0.000109
+2020-04-27 00:00:00   Volatility (Daily): 0.033881
+2020-04-27 00:00:00   Sharpe Ratio: -0.0513
+2020-04-27 00:00:00   Skewness: -0.5587
+2020-04-27 00:00:00   Kurtosis: 2.8497
+2020-04-27 00:00:00 VIX:
+2020-04-27 00:00:00   Mean Daily Return: 0.013567
+2020-04-27 00:00:00   Volatility (Daily): 0.121927
+2020-04-27 00:00:00   Sharpe Ratio: 1.7664
+2020-04-27 00:00:00   Skewness: 1.0997
+2020-04-27 00:00:00   Kurtosis: 1.7920
+2020-04-27 00:00:00 --- WIN/LOSS ANALYSIS ---
+2020-04-27 00:00:00 TSLA (VIX Up Days):
+2020-04-27 00:00:00   Total Wins: 16
+2020-04-27 00:00:00   Total Losses: 21
+2020-04-27 00:00:00   Win Rate: 0.432
+2020-04-27 00:00:00 SPY (VIX Up Days):
+2020-04-27 00:00:00   Total Wins: 7
+2020-04-27 00:00:00   Total Losses: 30
+2020-04-27 00:00:00   Win Rate: 0.189
+2020-04-27 00:00:00 QQQ (VIX Up Days):
+2020-04-27 00:00:00   Total Wins: 8
+2020-04-27 00:00:00   Total Losses: 29
+2020-04-27 00:00:00   Win Rate: 0.216
+2020-04-27 00:00:00 --- WEEKLY AGGREGATION ---
+2020-04-27 00:00:00 TSLA:
+2020-04-27 00:00:00   Avg Wins/Week: 0.94
+2020-04-27 00:00:00   Avg Losses/Week: 1.24
+2020-04-27 00:00:00   Weekly Win Rate: 0.432
+2020-04-27 00:00:00 SPY:
+2020-04-27 00:00:00   Avg Wins/Week: 0.41
+2020-04-27 00:00:00   Avg Losses/Week: 1.76
+2020-04-27 00:00:00   Weekly Win Rate: 0.189
+2020-04-27 00:00:00 QQQ:
+2020-04-27 00:00:00   Avg Wins/Week: 0.47
+2020-04-27 00:00:00   Avg Losses/Week: 1.71
+2020-04-27 00:00:00   Weekly Win Rate: 0.216
+2020-04-27 00:00:00 --- CORRELATION METHOD COMPARISON ---
+2020-04-27 00:00:00 TSLA_SPY: Traditional=0.5437, OHLC=0.4149, Diff=-0.1288 (23.7% change)
+2020-04-27 00:00:00 TSLA_QQQ: Traditional=0.5687, OHLC=0.4263, Diff=-0.1424 (25.0% change)
+2020-04-27 00:00:00 TSLA_VIX: Traditional=-0.4701, OHLC=-0.2457, Diff=0.2244 (47.7% change)
+2020-04-27 00:00:00 QQQ_VIX: Traditional=-0.7799, OHLC=-0.4453, Diff=0.3346 (42.9% change)
+2020-04-27 00:00:00 
+================================================================================
+2020-04-27 00:00:00 STRUCTURED DATAFRAME OUTPUT
+2020-04-27 00:00:00 ================================================================================
+2020-04-27 00:00:00 
+--- OHLC SUMMARY DATAFRAME ---
+2020-04-27 00:00:00 ticker     date     open     high      low    close    volume  daily_diff  daily_return_pct  intraday_range_pct
+  TSLA 20200424  47.3873  48.7113  46.5453  48.3433 190125919      0.9560            2.0174              4.4805
+   SPY 20200424 260.2097 262.9908 258.1795 262.3233  79485607      2.1136            0.8123              1.8341
+   QQQ 20200424 204.2063 207.4296 202.7931 206.9843  33096908      2.7780            1.3604              2.2400
+   VIX 20200424  41.9100  42.0800  35.6000  35.9300         0     -5.9800          -14.2687             18.0351
+2020-04-27 00:00:00 
+--- CORRELATION MATRIX DATAFRAME ---
+2020-04-27 00:00:00 asset_pair  pearson_returns  spearman_returns  rogers_zhou_basic  rogers_zhou_weighted  garman_klass  correlation_spread
+  TSLA_SPY           0.5437            0.4353             0.4149                0.2826        0.6171             -0.1288
+  TSLA_QQQ           0.5687            0.4701             0.4263                0.3201        0.6409             -0.1424
+  TSLA_VIX          -0.4701           -0.3580            -0.2457               -0.0813        0.1450              0.2244
+   QQQ_VIX          -0.7799           -0.8010            -0.4453               -0.5518        0.2850              0.3346
+2020-04-27 00:00:00 
+--- STATISTICAL SUMMARY DATAFRAME ---
+2020-04-27 00:00:00 ticker  mean_daily_return  volatility_daily  sharpe_ratio  skewness  kurtosis  var_95_pct  var_99_pct  max_return  min_return
+  TSLA           0.006692          0.072613        1.4630   -0.4708    1.3861   -0.138443   -0.192377    0.181445   -0.205522
+   SPY          -0.001695          0.033645       -0.7998   -0.4282    2.4060   -0.050274   -0.104092    0.086731   -0.115887
+   QQQ          -0.000109          0.033881       -0.0513   -0.5587    2.8497   -0.045558   -0.103398    0.081309   -0.127592
+   VIX           0.013567          0.121927        1.7664    1.0997    1.7920   -0.140669   -0.201735    0.382167   -0.266228
+2020-04-27 00:00:00 
+--- WIN/LOSS ANALYSIS DATAFRAME ---
+2020-04-27 00:00:00 ticker  total_observations  wins_vix_up  losses_vix_up  wins_vix_down  losses_vix_down  win_rate_vix_up  win_rate_vix_down  overall_win_rate
+  TSLA                  78           16             21             27               14           0.4324             0.6585            0.5513
+   SPY                  78            7             30             33                8           0.1892             0.8049            0.5128
+   QQQ                  78            8             29             36                5           0.2162             0.8780            0.5641
+2020-04-27 00:00:00 
+--- ROLLING CORRELATION TRENDS DATAFRAME ---
+2020-04-27 00:00:00 asset_pair     date  rolling_30d rolling_90d correlation_trend
+  TSLA_VIX 20200420      -0.5177        None        increasing
+  TSLA_VIX 20200421      -0.4583        None        increasing
+  TSLA_VIX 20200422      -0.4541        None        increasing
+  TSLA_VIX 20200423      -0.4517        None        increasing
+  TSLA_VIX 20200424      -0.3722        None        increasing
+   QQQ_VIX 20200420      -0.8134        None        increasing
+   QQQ_VIX 20200421      -0.7944        None        increasing
+   QQQ_VIX 20200422      -0.7885        None        increasing
+   QQQ_VIX 20200423      -0.7803        None        increasing
+   QQQ_VIX 20200424      -0.7237        None        increasing
+2020-04-27 00:00:00 
+================================================================================
+2020-04-27 00:00:00 END DATAFRAME OUTPUT
+2020-04-27 00:00:00 ================================================================================
+
+2020-05-04 00:00:00 Running OHLC Correlation Analysis with 85 observations
+2020-05-04 00:00:00 TSLA: 84 valid data points
+2020-05-04 00:00:00 SPY: 84 valid data points
+2020-05-04 00:00:00 QQQ: 84 valid data points
+2020-05-04 00:00:00 VIX: 84 valid data points
+2020-05-04 00:00:00 ============================================================
+2020-05-04 00:00:00 OHLC CORRELATION ANALYSIS RESULTS
+2020-05-04 00:00:00 ============================================================
+2020-05-04 00:00:00 --- CORRELATION SUMMARY ---
+2020-05-04 00:00:00 TSLA_SPY:
+2020-05-04 00:00:00   Pearson (Returns): 0.5511
+2020-05-04 00:00:00   Spearman (Returns): 0.4721
+2020-05-04 00:00:00   Rogers-Zhou Basic: 0.3867
+2020-05-04 00:00:00   Rogers-Zhou Weighted: 0.2900
+2020-05-04 00:00:00 TSLA_QQQ:
+2020-05-04 00:00:00   Pearson (Returns): 0.5747
+2020-05-04 00:00:00   Spearman (Returns): 0.5023
+2020-05-04 00:00:00   Rogers-Zhou Basic: 0.4031
+2020-05-04 00:00:00   Rogers-Zhou Weighted: 0.3053
+2020-05-04 00:00:00 TSLA_VIX:
+2020-05-04 00:00:00   Pearson (Returns): -0.4809
+2020-05-04 00:00:00   Spearman (Returns): -0.3985
+2020-05-04 00:00:00   Rogers-Zhou Basic: -0.2501
+2020-05-04 00:00:00   Rogers-Zhou Weighted: -0.1019
+2020-05-04 00:00:00 QQQ_VIX:
+2020-05-04 00:00:00   Pearson (Returns): -0.7781
+2020-05-04 00:00:00   Spearman (Returns): -0.8032
+2020-05-04 00:00:00   Rogers-Zhou Basic: -0.4439
+2020-05-04 00:00:00   Rogers-Zhou Weighted: -0.5357
+2020-05-04 00:00:00 --- DESCRIPTIVE STATISTICS ---
+2020-05-04 00:00:00 TSLA:
+2020-05-04 00:00:00   Mean Daily Return: 0.005886
+2020-05-04 00:00:00   Volatility (Daily): 0.072530
+2020-05-04 00:00:00   Sharpe Ratio: 1.2884
+2020-05-04 00:00:00   Skewness: -0.4379
+2020-05-04 00:00:00   Kurtosis: 1.2151
+2020-05-04 00:00:00 SPY:
+2020-05-04 00:00:00   Mean Daily Return: -0.001601
+2020-05-04 00:00:00   Volatility (Daily): 0.032922
+2020-05-04 00:00:00   Sharpe Ratio: -0.7718
+2020-05-04 00:00:00   Skewness: -0.4343
+2020-05-04 00:00:00   Kurtosis: 2.5377
+2020-05-04 00:00:00 QQQ:
+2020-05-04 00:00:00   Mean Daily Return: -0.000165
+2020-05-04 00:00:00   Volatility (Daily): 0.033285
+2020-05-04 00:00:00   Sharpe Ratio: -0.0787
+2020-05-04 00:00:00   Skewness: -0.5428
+2020-05-04 00:00:00   Kurtosis: 2.8978
+2020-05-04 00:00:00 VIX:
+2020-05-04 00:00:00   Mean Daily Return: 0.013165
+2020-05-04 00:00:00   Volatility (Daily): 0.119503
+2020-05-04 00:00:00   Sharpe Ratio: 1.7488
+2020-05-04 00:00:00   Skewness: 1.1013
+2020-05-04 00:00:00   Kurtosis: 1.8891
+2020-05-04 00:00:00 --- WIN/LOSS ANALYSIS ---
+2020-05-04 00:00:00 TSLA (VIX Up Days):
+2020-05-04 00:00:00   Total Wins: 16
+2020-05-04 00:00:00   Total Losses: 24
+2020-05-04 00:00:00   Win Rate: 0.400
+2020-05-04 00:00:00 SPY (VIX Up Days):
+2020-05-04 00:00:00   Total Wins: 7
+2020-05-04 00:00:00   Total Losses: 33
+2020-05-04 00:00:00   Win Rate: 0.175
+2020-05-04 00:00:00 QQQ (VIX Up Days):
+2020-05-04 00:00:00   Total Wins: 8
+2020-05-04 00:00:00   Total Losses: 32
+2020-05-04 00:00:00   Win Rate: 0.200
+2020-05-04 00:00:00 --- WEEKLY AGGREGATION ---
+2020-05-04 00:00:00 TSLA:
+2020-05-04 00:00:00   Avg Wins/Week: 0.89
+2020-05-04 00:00:00   Avg Losses/Week: 1.33
+2020-05-04 00:00:00   Weekly Win Rate: 0.400
+2020-05-04 00:00:00 SPY:
+2020-05-04 00:00:00   Avg Wins/Week: 0.39
+2020-05-04 00:00:00   Avg Losses/Week: 1.83
+2020-05-04 00:00:00   Weekly Win Rate: 0.175
+2020-05-04 00:00:00 QQQ:
+2020-05-04 00:00:00   Avg Wins/Week: 0.44
+2020-05-04 00:00:00   Avg Losses/Week: 1.78
+2020-05-04 00:00:00   Weekly Win Rate: 0.200
+2020-05-04 00:00:00 --- CORRELATION METHOD COMPARISON ---
+2020-05-04 00:00:00 TSLA_SPY: Traditional=0.5511, OHLC=0.3867, Diff=-0.1644 (29.8% change)
+2020-05-04 00:00:00 TSLA_QQQ: Traditional=0.5747, OHLC=0.4031, Diff=-0.1716 (29.9% change)
+2020-05-04 00:00:00 TSLA_VIX: Traditional=-0.4809, OHLC=-0.2501, Diff=0.2307 (48.0% change)
+2020-05-04 00:00:00 QQQ_VIX: Traditional=-0.7781, OHLC=-0.4439, Diff=0.3342 (43.0% change)
+2020-05-04 00:00:00 
+================================================================================
+2020-05-04 00:00:00 STRUCTURED DATAFRAME OUTPUT
+2020-05-04 00:00:00 ================================================================================
+2020-05-04 00:00:00 
+--- OHLC SUMMARY DATAFRAME ---
+2020-05-04 00:00:00 ticker     date     open     high      low    close    volume  daily_diff  daily_return_pct  intraday_range_pct
+  TSLA 20200501  50.3333  51.5333  45.5333  46.7547 478367073     -3.5787           -7.1099             12.8329
+   SPY 20200501 264.3535 265.1693 260.9884 262.1565 121781660     -2.1971           -0.8311              1.5948
+   QQQ 20200501 207.6232 209.7236 204.8936 205.9196  47693397     -1.7036           -0.8205              2.3456
+   VIX 20200501  38.1700  39.5700  36.5900  37.1900         0     -0.9800           -2.5675              8.0129
+2020-05-04 00:00:00 
+--- CORRELATION MATRIX DATAFRAME ---
+2020-05-04 00:00:00 asset_pair  pearson_returns  spearman_returns  rogers_zhou_basic  rogers_zhou_weighted  garman_klass  correlation_spread
+  TSLA_SPY           0.5511            0.4721             0.3867                0.2900        0.6058             -0.1644
+  TSLA_QQQ           0.5747            0.5023             0.4031                0.3053        0.6305             -0.1716
+  TSLA_VIX          -0.4809           -0.3985            -0.2501               -0.1019        0.1432              0.2307
+   QQQ_VIX          -0.7781           -0.8032            -0.4439               -0.5357        0.2906              0.3342
+2020-05-04 00:00:00 
+--- STATISTICAL SUMMARY DATAFRAME ---
+2020-05-04 00:00:00 ticker  mean_daily_return  volatility_daily  sharpe_ratio  skewness  kurtosis  var_95_pct  var_99_pct  max_return  min_return
+  TSLA           0.005886          0.072530        1.2884   -0.4379    1.2151   -0.135769   -0.191523    0.181445   -0.205522
+   SPY          -0.001601          0.032922       -0.7718   -0.4343    2.5377   -0.049584   -0.103326    0.086731   -0.115887
+   QQQ          -0.000165          0.033285       -0.0787   -0.5428    2.8978   -0.044421   -0.101827    0.081309   -0.127592
+   VIX           0.013165          0.119503        1.7488    1.1013    1.8891   -0.140377   -0.197547    0.382167   -0.266228
+2020-05-04 00:00:00 
+--- WIN/LOSS ANALYSIS DATAFRAME ---
+2020-05-04 00:00:00 ticker  total_observations  wins_vix_up  losses_vix_up  wins_vix_down  losses_vix_down  win_rate_vix_up  win_rate_vix_down  overall_win_rate
+  TSLA                  83           16             24             29               14            0.400             0.6744            0.5422
+   SPY                  83            7             33             35                8            0.175             0.8140            0.5060
+   QQQ                  83            8             32             38                5            0.200             0.8837            0.5542
+2020-05-04 00:00:00 
+--- ROLLING CORRELATION TRENDS DATAFRAME ---
+2020-05-04 00:00:00 asset_pair     date  rolling_30d rolling_90d correlation_trend
+  TSLA_VIX 20200427      -0.4599        None        increasing
+  TSLA_VIX 20200428      -0.1783        None        increasing
+  TSLA_VIX 20200429      -0.2081        None        increasing
+  TSLA_VIX 20200430      -0.2169        None        increasing
+  TSLA_VIX 20200501      -0.2833        None        increasing
+   QQQ_VIX 20200427      -0.6804        None        increasing
+   QQQ_VIX 20200428      -0.4405        None        increasing
+   QQQ_VIX 20200429      -0.4291        None        increasing
+   QQQ_VIX 20200430      -0.4124        None        increasing
+   QQQ_VIX 20200501      -0.4492        None        increasing
+2020-05-04 00:00:00 
+================================================================================
+2020-05-04 00:00:00 END DATAFRAME OUTPUT
+2020-05-04 00:00:00 ================================================================================
+
+2020-05-11 00:00:00 Running OHLC Correlation Analysis with 90 observations
+2020-05-11 00:00:00 TSLA: 89 valid data points
+2020-05-11 00:00:00 SPY: 89 valid data points
+2020-05-11 00:00:00 QQQ: 89 valid data points
+2020-05-11 00:00:00 VIX: 89 valid data points
+2020-05-11 00:00:00 ============================================================
+2020-05-11 00:00:00 OHLC CORRELATION ANALYSIS RESULTS
+2020-05-11 00:00:00 ============================================================
+2020-05-11 00:00:00 --- CORRELATION SUMMARY ---
+2020-05-11 00:00:00 TSLA_SPY:
+2020-05-11 00:00:00   Pearson (Returns): 0.5488
+2020-05-11 00:00:00   Spearman (Returns): 0.4584
+2020-05-11 00:00:00   Rogers-Zhou Basic: 0.3935
+2020-05-11 00:00:00   Rogers-Zhou Weighted: 0.3071
+2020-05-11 00:00:00 TSLA_QQQ:
+2020-05-11 00:00:00   Pearson (Returns): 0.5747
+2020-05-11 00:00:00   Spearman (Returns): 0.4959
+2020-05-11 00:00:00   Rogers-Zhou Basic: 0.4139
+2020-05-11 00:00:00   Rogers-Zhou Weighted: 0.3307
+2020-05-11 00:00:00 TSLA_VIX:
+2020-05-11 00:00:00   Pearson (Returns): -0.4811
+2020-05-11 00:00:00   Spearman (Returns): -0.3914
+2020-05-11 00:00:00   Rogers-Zhou Basic: -0.2604
+2020-05-11 00:00:00   Rogers-Zhou Weighted: -0.1498
+2020-05-11 00:00:00 QQQ_VIX:
+2020-05-11 00:00:00   Pearson (Returns): -0.7774
+2020-05-11 00:00:00   Spearman (Returns): -0.8039
+2020-05-11 00:00:00   Rogers-Zhou Basic: -0.4542
+2020-05-11 00:00:00   Rogers-Zhou Weighted: -0.5525
+2020-05-11 00:00:00 --- DESCRIPTIVE STATISTICS ---
+2020-05-11 00:00:00 TSLA:
+2020-05-11 00:00:00   Mean Daily Return: 0.007321
+2020-05-11 00:00:00   Volatility (Daily): 0.071043
+2020-05-11 00:00:00   Sharpe Ratio: 1.6358
+2020-05-11 00:00:00   Skewness: -0.4834
+2020-05-11 00:00:00   Kurtosis: 1.3629
+2020-05-11 00:00:00 SPY:
+2020-05-11 00:00:00   Mean Daily Return: -0.001128
+2020-05-11 00:00:00   Volatility (Daily): 0.032079
+2020-05-11 00:00:00   Sharpe Ratio: -0.5584
+2020-05-11 00:00:00   Skewness: -0.4836
+2020-05-11 00:00:00   Kurtosis: 2.8074
+2020-05-11 00:00:00 QQQ:
+2020-05-11 00:00:00   Mean Daily Return: 0.000474
+2020-05-11 00:00:00   Volatility (Daily): 0.032426
+2020-05-11 00:00:00   Sharpe Ratio: 0.2321
+2020-05-11 00:00:00   Skewness: -0.6102
+2020-05-11 00:00:00   Kurtosis: 3.2060
+2020-05-11 00:00:00 VIX:
+2020-05-11 00:00:00   Mean Daily Return: 0.009184
+2020-05-11 00:00:00   Volatility (Daily): 0.117651
+2020-05-11 00:00:00   Sharpe Ratio: 1.2391
+2020-05-11 00:00:00   Skewness: 1.1637
+2020-05-11 00:00:00   Kurtosis: 2.0753
+2020-05-11 00:00:00 --- WIN/LOSS ANALYSIS ---
+2020-05-11 00:00:00 TSLA (VIX Up Days):
+2020-05-11 00:00:00   Total Wins: 17
+2020-05-11 00:00:00   Total Losses: 24
+2020-05-11 00:00:00   Win Rate: 0.415
+2020-05-11 00:00:00 SPY (VIX Up Days):
+2020-05-11 00:00:00   Total Wins: 7
+2020-05-11 00:00:00   Total Losses: 34
+2020-05-11 00:00:00   Win Rate: 0.171
+2020-05-11 00:00:00 QQQ (VIX Up Days):
+2020-05-11 00:00:00   Total Wins: 9
+2020-05-11 00:00:00   Total Losses: 32
+2020-05-11 00:00:00   Win Rate: 0.220
+2020-05-11 00:00:00 --- WEEKLY AGGREGATION ---
+2020-05-11 00:00:00 TSLA:
+2020-05-11 00:00:00   Avg Wins/Week: 0.89
+2020-05-11 00:00:00   Avg Losses/Week: 1.26
+2020-05-11 00:00:00   Weekly Win Rate: 0.415
+2020-05-11 00:00:00 SPY:
+2020-05-11 00:00:00   Avg Wins/Week: 0.37
+2020-05-11 00:00:00   Avg Losses/Week: 1.79
+2020-05-11 00:00:00   Weekly Win Rate: 0.171
+2020-05-11 00:00:00 QQQ:
+2020-05-11 00:00:00   Avg Wins/Week: 0.47
+2020-05-11 00:00:00   Avg Losses/Week: 1.68
+2020-05-11 00:00:00   Weekly Win Rate: 0.220
+2020-05-11 00:00:00 --- CORRELATION METHOD COMPARISON ---
+2020-05-11 00:00:00 TSLA_SPY: Traditional=0.5488, OHLC=0.3935, Diff=-0.1553 (28.3% change)
+2020-05-11 00:00:00 TSLA_QQQ: Traditional=0.5747, OHLC=0.4139, Diff=-0.1608 (28.0% change)
+2020-05-11 00:00:00 TSLA_VIX: Traditional=-0.4811, OHLC=-0.2604, Diff=0.2206 (45.9% change)
+2020-05-11 00:00:00 QQQ_VIX: Traditional=-0.7774, OHLC=-0.4542, Diff=0.3232 (41.6% change)
+2020-05-11 00:00:00 
+================================================================================
+2020-05-11 00:00:00 STRUCTURED DATAFRAME OUTPUT
+2020-05-11 00:00:00 ================================================================================
+2020-05-11 00:00:00 
+--- OHLC SUMMARY DATAFRAME ---
+2020-05-11 00:00:00 ticker     date     open     high      low    close    volume  daily_diff  daily_return_pct  intraday_range_pct
+  TSLA 20200508  52.9307  54.9333  52.4667  54.6280 235962069      1.6973            3.2067              4.5154
+   SPY 20200508 269.8138 271.4824 268.7199 271.1023  67478120      1.2886            0.4776              1.0190
+   QQQ 20200508 216.4508 217.7865 215.3473 217.6510  30098556      1.2002            0.5545              1.1207
+   VIX 20200508  30.1400  30.3900  27.8900  27.9800         0     -2.1600           -7.1666              8.9350
+2020-05-11 00:00:00 
+--- CORRELATION MATRIX DATAFRAME ---
+2020-05-11 00:00:00 asset_pair  pearson_returns  spearman_returns  rogers_zhou_basic  rogers_zhou_weighted  garman_klass  correlation_spread
+  TSLA_SPY           0.5488            0.4584             0.3935                0.3071        0.6119             -0.1553
+  TSLA_QQQ           0.5747            0.4959             0.4139                0.3307        0.6361             -0.1608
+  TSLA_VIX          -0.4811           -0.3914            -0.2604               -0.1498        0.1533              0.2206
+   QQQ_VIX          -0.7774           -0.8039            -0.4542               -0.5525        0.2979              0.3232
+2020-05-11 00:00:00 
+--- STATISTICAL SUMMARY DATAFRAME ---
+2020-05-11 00:00:00 ticker  mean_daily_return  volatility_daily  sharpe_ratio  skewness  kurtosis  var_95_pct  var_99_pct  max_return  min_return
+  TSLA           0.007321          0.071043        1.6358   -0.4834    1.3629   -0.132359   -0.190670    0.181445   -0.205522
+   SPY          -0.001128          0.032079       -0.5584   -0.4836    2.8074   -0.048602   -0.102560    0.086731   -0.115887
+   QQQ           0.000474          0.032426        0.2321   -0.6102    3.2060   -0.044142   -0.100256    0.081309   -0.127592
+   VIX           0.009184          0.117651        1.2391    1.1637    2.0753   -0.139774   -0.193359    0.382167   -0.266228
+2020-05-11 00:00:00 
+--- WIN/LOSS ANALYSIS DATAFRAME ---
+2020-05-11 00:00:00 ticker  total_observations  wins_vix_up  losses_vix_up  wins_vix_down  losses_vix_down  win_rate_vix_up  win_rate_vix_down  overall_win_rate
+  TSLA                  88           17             24             32               15           0.4146             0.6809            0.5568
+   SPY                  88            7             34             39                8           0.1707             0.8298            0.5227
+   QQQ                  88            9             32             42                5           0.2195             0.8936            0.5795
+2020-05-11 00:00:00 
+--- ROLLING CORRELATION TRENDS DATAFRAME ---
+2020-05-11 00:00:00 asset_pair     date  rolling_30d rolling_90d correlation_trend
+  TSLA_VIX 20200504      -0.2975        None        decreasing
+  TSLA_VIX 20200505      -0.2952        None        decreasing
+  TSLA_VIX 20200506      -0.3444        None        decreasing
+  TSLA_VIX 20200507      -0.3657        None        decreasing
+  TSLA_VIX 20200508      -0.3897        None        decreasing
+   QQQ_VIX 20200504      -0.5269        None        decreasing
+   QQQ_VIX 20200505      -0.5361        None        decreasing
+   QQQ_VIX 20200506      -0.6201        None        decreasing
+   QQQ_VIX 20200507      -0.6145        None        decreasing
+   QQQ_VIX 20200508      -0.6260        None        decreasing
+2020-05-11 00:00:00 
+================================================================================
+2020-05-11 00:00:00 END DATAFRAME OUTPUT
+2020-05-11 00:00:00 ================================================================================
+
+2020-05-18 00:00:00 Running OHLC Correlation Analysis with 95 observations
+2020-05-18 00:00:00 TSLA: 94 valid data points
+2020-05-18 00:00:00 SPY: 94 valid data points
+2020-05-18 00:00:00 QQQ: 94 valid data points
+2020-05-18 00:00:00 VIX: 94 valid data points
+2020-05-18 00:00:00 ============================================================
+2020-05-18 00:00:00 OHLC CORRELATION ANALYSIS RESULTS
+2020-05-18 00:00:00 ============================================================
+2020-05-18 00:00:00 --- CORRELATION SUMMARY ---
+2020-05-18 00:00:00 TSLA_SPY:
+2020-05-18 00:00:00   Pearson (Returns): 0.5488
+2020-05-18 00:00:00   Spearman (Returns): 0.4590
+2020-05-18 00:00:00   Rogers-Zhou Basic: 0.4176
+2020-05-18 00:00:00   Rogers-Zhou Weighted: 0.3074
+2020-05-18 00:00:00 TSLA_QQQ:
+2020-05-18 00:00:00   Pearson (Returns): 0.5733
+2020-05-18 00:00:00   Spearman (Returns): 0.4912
+2020-05-18 00:00:00   Rogers-Zhou Basic: 0.4374
+2020-05-18 00:00:00   Rogers-Zhou Weighted: 0.3309
+2020-05-18 00:00:00 TSLA_VIX:
+2020-05-18 00:00:00   Pearson (Returns): -0.4764
+2020-05-18 00:00:00   Spearman (Returns): -0.3938
+2020-05-18 00:00:00   Rogers-Zhou Basic: -0.2906
+2020-05-18 00:00:00   Rogers-Zhou Weighted: -0.1676
+2020-05-18 00:00:00 QQQ_VIX:
+2020-05-18 00:00:00   Pearson (Returns): -0.7777
+2020-05-18 00:00:00   Spearman (Returns): -0.8085
+2020-05-18 00:00:00   Rogers-Zhou Basic: -0.4803
+2020-05-18 00:00:00   Rogers-Zhou Weighted: -0.5624
+2020-05-18 00:00:00 --- DESCRIPTIVE STATISTICS ---
+2020-05-18 00:00:00 TSLA:
+2020-05-18 00:00:00   Mean Daily Return: 0.006658
+2020-05-18 00:00:00   Volatility (Daily): 0.069204
+2020-05-18 00:00:00   Sharpe Ratio: 1.5272
+2020-05-18 00:00:00   Skewness: -0.4658
+2020-05-18 00:00:00   Kurtosis: 1.5573
+2020-05-18 00:00:00 SPY:
+2020-05-18 00:00:00   Mean Daily Return: -0.001297
+2020-05-18 00:00:00   Volatility (Daily): 0.031342
+2020-05-18 00:00:00   Sharpe Ratio: -0.6568
+2020-05-18 00:00:00   Skewness: -0.4766
+2020-05-18 00:00:00   Kurtosis: 3.0062
+2020-05-18 00:00:00 QQQ:
+2020-05-18 00:00:00   Mean Daily Return: 0.000372
+2020-05-18 00:00:00   Volatility (Daily): 0.031681
+2020-05-18 00:00:00   Sharpe Ratio: 0.1865
+2020-05-18 00:00:00   Skewness: -0.6117
+2020-05-18 00:00:00   Kurtosis: 3.4210
+2020-05-18 00:00:00 VIX:
+2020-05-18 00:00:00   Mean Daily Return: 0.010096
+2020-05-18 00:00:00   Volatility (Daily): 0.116384
+2020-05-18 00:00:00   Sharpe Ratio: 1.3771
+2020-05-18 00:00:00   Skewness: 1.1432
+2020-05-18 00:00:00   Kurtosis: 2.0192
+2020-05-18 00:00:00 --- WIN/LOSS ANALYSIS ---
+2020-05-18 00:00:00 TSLA (VIX Up Days):
+2020-05-18 00:00:00   Total Wins: 17
+2020-05-18 00:00:00   Total Losses: 26
+2020-05-18 00:00:00   Win Rate: 0.395
+2020-05-18 00:00:00 SPY (VIX Up Days):
+2020-05-18 00:00:00   Total Wins: 7
+2020-05-18 00:00:00   Total Losses: 36
+2020-05-18 00:00:00   Win Rate: 0.163
+2020-05-18 00:00:00 QQQ (VIX Up Days):
+2020-05-18 00:00:00   Total Wins: 9
+2020-05-18 00:00:00   Total Losses: 34
+2020-05-18 00:00:00   Win Rate: 0.209
+2020-05-18 00:00:00 --- WEEKLY AGGREGATION ---
+2020-05-18 00:00:00 TSLA:
+2020-05-18 00:00:00   Avg Wins/Week: 0.85
+2020-05-18 00:00:00   Avg Losses/Week: 1.30
+2020-05-18 00:00:00   Weekly Win Rate: 0.395
+2020-05-18 00:00:00 SPY:
+2020-05-18 00:00:00   Avg Wins/Week: 0.35
+2020-05-18 00:00:00   Avg Losses/Week: 1.80
+2020-05-18 00:00:00   Weekly Win Rate: 0.163
+2020-05-18 00:00:00 QQQ:
+2020-05-18 00:00:00   Avg Wins/Week: 0.45
+2020-05-18 00:00:00   Avg Losses/Week: 1.70
+2020-05-18 00:00:00   Weekly Win Rate: 0.209
+2020-05-18 00:00:00 --- CORRELATION METHOD COMPARISON ---
+2020-05-18 00:00:00 TSLA_SPY: Traditional=0.5488, OHLC=0.4176, Diff=-0.1312 (23.9% change)
+2020-05-18 00:00:00 TSLA_QQQ: Traditional=0.5733, OHLC=0.4374, Diff=-0.1360 (23.7% change)
+2020-05-18 00:00:00 TSLA_VIX: Traditional=-0.4764, OHLC=-0.2906, Diff=0.1859 (39.0% change)
+2020-05-18 00:00:00 QQQ_VIX: Traditional=-0.7777, OHLC=-0.4803, Diff=0.2975 (38.2% change)
+2020-05-18 00:00:00 
+================================================================================
+2020-05-18 00:00:00 STRUCTURED DATAFRAME OUTPUT
+2020-05-18 00:00:00 ================================================================================
+2020-05-18 00:00:00 
+--- OHLC SUMMARY DATAFRAME ---
+2020-05-18 00:00:00 ticker     date     open     high      low    close    volume  daily_diff  daily_return_pct  intraday_range_pct
+  TSLA 20200515  52.7200  53.6833  52.4367  53.2780 152428455      0.5580            1.0584              2.3399
+   SPY 20200515 261.7207 265.4382 260.8123 265.3918  99212212      3.6711            1.4027              1.7430
+   QQQ 20200515 211.7659 216.1701 211.3400 216.1120  51838544      4.3461            2.0523              2.2350
+   VIX 20200515  32.5000  35.1300  31.0400  31.8900         0     -0.6100           -1.8769             12.8253
+2020-05-18 00:00:00 
+--- CORRELATION MATRIX DATAFRAME ---
+2020-05-18 00:00:00 asset_pair  pearson_returns  spearman_returns  rogers_zhou_basic  rogers_zhou_weighted  garman_klass  correlation_spread
+  TSLA_SPY           0.5488            0.4590             0.4176                0.3074        0.6145             -0.1312
+  TSLA_QQQ           0.5733            0.4912             0.4374                0.3309        0.6388             -0.1360
+  TSLA_VIX          -0.4764           -0.3938            -0.2906               -0.1676        0.1504              0.1859
+   QQQ_VIX          -0.7777           -0.8085            -0.4803               -0.5624        0.2959              0.2975
+2020-05-18 00:00:00 
+--- STATISTICAL SUMMARY DATAFRAME ---
+2020-05-18 00:00:00 ticker  mean_daily_return  volatility_daily  sharpe_ratio  skewness  kurtosis  var_95_pct  var_99_pct  max_return  min_return
+  TSLA           0.006658          0.069204        1.5272   -0.4658    1.5573   -0.128949   -0.189816    0.181445   -0.205522
+   SPY          -0.001297          0.031342       -0.6568   -0.4766    3.0062   -0.047620   -0.101794    0.086731   -0.115887
+   QQQ           0.000372          0.031681        0.1865   -0.6117    3.4210   -0.043864   -0.098685    0.081309   -0.127592
+   VIX           0.010096          0.116384        1.3771    1.1432    2.0192   -0.139171   -0.189172    0.382167   -0.266228
+2020-05-18 00:00:00 
+--- WIN/LOSS ANALYSIS DATAFRAME ---
+2020-05-18 00:00:00 ticker  total_observations  wins_vix_up  losses_vix_up  wins_vix_down  losses_vix_down  win_rate_vix_up  win_rate_vix_down  overall_win_rate
+  TSLA                  93           17             26             33               17           0.3953               0.66            0.5376
+   SPY                  93            7             36             42                8           0.1628               0.84            0.5269
+   QQQ                  93            9             34             45                5           0.2093               0.90            0.5806
+2020-05-18 00:00:00 
+--- ROLLING CORRELATION TRENDS DATAFRAME ---
+2020-05-18 00:00:00 asset_pair     date  rolling_30d rolling_90d correlation_trend
+  TSLA_VIX 20200511      -0.3721        None        decreasing
+  TSLA_VIX 20200512      -0.4076        None        decreasing
+  TSLA_VIX 20200513      -0.4149        None        decreasing
+  TSLA_VIX 20200514      -0.3765        None        decreasing
+  TSLA_VIX 20200515      -0.4635        None        decreasing
+   QQQ_VIX 20200511      -0.5947        None        increasing
+   QQQ_VIX 20200512      -0.5865        None        increasing
+   QQQ_VIX 20200513      -0.6155        None        increasing
+   QQQ_VIX 20200514      -0.5993        None        increasing
+   QQQ_VIX 20200515      -0.5919        None        increasing
+2020-05-18 00:00:00 
+================================================================================
+2020-05-18 00:00:00 END DATAFRAME OUTPUT
+2020-05-18 00:00:00 ================================================================================
+
+2020-05-26 00:00:00 Running OHLC Correlation Analysis with 100 observations
+2020-05-26 00:00:00 TSLA: 99 valid data points
+2020-05-26 00:00:00 SPY: 99 valid data points
+2020-05-26 00:00:00 QQQ: 99 valid data points
+2020-05-26 00:00:00 VIX: 99 valid data points
+2020-05-26 00:00:00 ============================================================
+2020-05-26 00:00:00 OHLC CORRELATION ANALYSIS RESULTS
+2020-05-26 00:00:00 ============================================================
+2020-05-26 00:00:00 --- CORRELATION SUMMARY ---
+2020-05-26 00:00:00 TSLA_SPY:
+2020-05-26 00:00:00   Pearson (Returns): 0.5461
+2020-05-26 00:00:00   Spearman (Returns): 0.4481
+2020-05-26 00:00:00   Rogers-Zhou Basic: 0.4201
+2020-05-26 00:00:00   Rogers-Zhou Weighted: 0.3068
+2020-05-26 00:00:00 TSLA_QQQ:
+2020-05-26 00:00:00   Pearson (Returns): 0.5710
+2020-05-26 00:00:00   Spearman (Returns): 0.4793
+2020-05-26 00:00:00   Rogers-Zhou Basic: 0.4345
+2020-05-26 00:00:00   Rogers-Zhou Weighted: 0.2897
+2020-05-26 00:00:00 TSLA_VIX:
+2020-05-26 00:00:00   Pearson (Returns): -0.4718
+2020-05-26 00:00:00   Spearman (Returns): -0.3809
+2020-05-26 00:00:00   Rogers-Zhou Basic: -0.2878
+2020-05-26 00:00:00   Rogers-Zhou Weighted: -0.1552
+2020-05-26 00:00:00 QQQ_VIX:
+2020-05-26 00:00:00   Pearson (Returns): -0.7793
+2020-05-26 00:00:00   Spearman (Returns): -0.8143
+2020-05-26 00:00:00   Rogers-Zhou Basic: -0.4845
+2020-05-26 00:00:00   Rogers-Zhou Weighted: -0.5941
+2020-05-26 00:00:00 --- DESCRIPTIVE STATISTICS ---
+2020-05-26 00:00:00 TSLA:
+2020-05-26 00:00:00   Mean Daily Return: 0.006542
+2020-05-26 00:00:00   Volatility (Daily): 0.067455
+2020-05-26 00:00:00   Sharpe Ratio: 1.5395
+2020-05-26 00:00:00   Skewness: -0.4715
+2020-05-26 00:00:00   Kurtosis: 1.7789
+2020-05-26 00:00:00 SPY:
+2020-05-26 00:00:00   Mean Daily Return: -0.000909
+2020-05-26 00:00:00   Volatility (Daily): 0.030762
+2020-05-26 00:00:00   Sharpe Ratio: -0.4692
+2020-05-26 00:00:00   Skewness: -0.5032
+2020-05-26 00:00:00   Kurtosis: 3.1637
+2020-05-26 00:00:00 QQQ:
+2020-05-26 00:00:00   Mean Daily Return: 0.000641
+2020-05-26 00:00:00   Volatility (Daily): 0.030994
+2020-05-26 00:00:00   Sharpe Ratio: 0.3284
+2020-05-26 00:00:00   Skewness: -0.6414
+2020-05-26 00:00:00   Kurtosis: 3.6601
+2020-05-26 00:00:00 VIX:
+2020-05-26 00:00:00   Mean Daily Return: 0.008312
+2020-05-26 00:00:00   Volatility (Daily): 0.114442
+2020-05-26 00:00:00   Sharpe Ratio: 1.1530
+2020-05-26 00:00:00   Skewness: 1.1740
+2020-05-26 00:00:00   Kurtosis: 2.1678
+2020-05-26 00:00:00 --- WIN/LOSS ANALYSIS ---
+2020-05-26 00:00:00 TSLA (VIX Up Days):
+2020-05-26 00:00:00   Total Wins: 18
+2020-05-26 00:00:00   Total Losses: 27
+2020-05-26 00:00:00   Win Rate: 0.400
+2020-05-26 00:00:00 SPY (VIX Up Days):
+2020-05-26 00:00:00   Total Wins: 7
+2020-05-26 00:00:00   Total Losses: 38
+2020-05-26 00:00:00   Win Rate: 0.156
+2020-05-26 00:00:00 QQQ (VIX Up Days):
+2020-05-26 00:00:00   Total Wins: 9
+2020-05-26 00:00:00   Total Losses: 36
+2020-05-26 00:00:00   Win Rate: 0.200
+2020-05-26 00:00:00 --- WEEKLY AGGREGATION ---
+2020-05-26 00:00:00 TSLA:
+2020-05-26 00:00:00   Avg Wins/Week: 0.86
+2020-05-26 00:00:00   Avg Losses/Week: 1.29
+2020-05-26 00:00:00   Weekly Win Rate: 0.400
+2020-05-26 00:00:00 SPY:
+2020-05-26 00:00:00   Avg Wins/Week: 0.33
+2020-05-26 00:00:00   Avg Losses/Week: 1.81
+2020-05-26 00:00:00   Weekly Win Rate: 0.156
+2020-05-26 00:00:00 QQQ:
+2020-05-26 00:00:00   Avg Wins/Week: 0.43
+2020-05-26 00:00:00   Avg Losses/Week: 1.71
+2020-05-26 00:00:00   Weekly Win Rate: 0.200
+2020-05-26 00:00:00 --- CORRELATION METHOD COMPARISON ---
+2020-05-26 00:00:00 TSLA_SPY: Traditional=0.5461, OHLC=0.4201, Diff=-0.1260 (23.1% change)
+2020-05-26 00:00:00 TSLA_QQQ: Traditional=0.5710, OHLC=0.4345, Diff=-0.1365 (23.9% change)
+2020-05-26 00:00:00 TSLA_VIX: Traditional=-0.4718, OHLC=-0.2878, Diff=0.1841 (39.0% change)
+2020-05-26 00:00:00 QQQ_VIX: Traditional=-0.7793, OHLC=-0.4845, Diff=0.2948 (37.8% change)
+2020-05-26 00:00:00 
+================================================================================
+2020-05-26 00:00:00 STRUCTURED DATAFRAME OUTPUT
+2020-05-26 00:00:00 ================================================================================
+2020-05-26 00:00:00 
+--- OHLC SUMMARY DATAFRAME ---
+2020-05-26 00:00:00 ticker     date     open     high      low    close    volume  daily_diff  daily_return_pct  intraday_range_pct
+  TSLA 20200522  54.8860  55.4567  54.1320  54.4587 146924430     -0.4273           -0.7786              2.4324
+   SPY 20200522 273.0677 274.0596 271.8347 273.8835  58344024      0.8158            0.2988              0.8123
+   QQQ 20200522 221.1259 222.5004 220.2064 222.2971  27149552      1.1712            0.5297              1.0320
+   VIX 20200522  31.3600  31.5500  28.0300  28.1600         0     -3.2000          -10.2041             12.5000
+2020-05-26 00:00:00 
+--- CORRELATION MATRIX DATAFRAME ---
+2020-05-26 00:00:00 asset_pair  pearson_returns  spearman_returns  rogers_zhou_basic  rogers_zhou_weighted  garman_klass  correlation_spread
+  TSLA_SPY           0.5461            0.4481             0.4201                0.3068        0.6199             -0.1260
+  TSLA_QQQ           0.5710            0.4793             0.4345                0.2897        0.6440             -0.1365
+  TSLA_VIX          -0.4718           -0.3809            -0.2878               -0.1552        0.1631              0.1841
+   QQQ_VIX          -0.7793           -0.8143            -0.4845               -0.5941        0.3041              0.2948
+2020-05-26 00:00:00 
+--- STATISTICAL SUMMARY DATAFRAME ---
+2020-05-26 00:00:00 ticker  mean_daily_return  volatility_daily  sharpe_ratio  skewness  kurtosis  var_95_pct  var_99_pct  max_return  min_return
+  TSLA           0.006542          0.067455        1.5395   -0.4715    1.7789   -0.125539   -0.188963    0.181445   -0.205522
+   SPY          -0.000909          0.030762       -0.4692   -0.5032    3.1637   -0.046638   -0.101028    0.086731   -0.115887
+   QQQ           0.000641          0.030994        0.3284   -0.6414    3.6601   -0.043586   -0.097114    0.081309   -0.127592
+   VIX           0.008312          0.114442        1.1530    1.1740    2.1678   -0.138568   -0.184984    0.382167   -0.266228
+2020-05-26 00:00:00 
+--- WIN/LOSS ANALYSIS DATAFRAME ---
+2020-05-26 00:00:00 ticker  total_observations  wins_vix_up  losses_vix_up  wins_vix_down  losses_vix_down  win_rate_vix_up  win_rate_vix_down  overall_win_rate
+  TSLA                  98           18             27             35               18           0.4000             0.6604            0.5408
+   SPY                  98            7             38             45                8           0.1556             0.8491            0.5306
+   QQQ                  98            9             36             48                5           0.2000             0.9057            0.5816
+2020-05-26 00:00:00 
+--- ROLLING CORRELATION TRENDS DATAFRAME ---
+2020-05-26 00:00:00 asset_pair     date  rolling_30d  rolling_90d correlation_trend
+  TSLA_VIX 20200518      -0.4451      -0.4811        decreasing
+  TSLA_VIX 20200519      -0.4513      -0.4860        decreasing
+  TSLA_VIX 20200520      -0.4667      -0.4849        decreasing
+  TSLA_VIX 20200521      -0.4686      -0.4850        decreasing
+  TSLA_VIX 20200522      -0.4536      -0.4829        decreasing
+   QQQ_VIX 20200518      -0.6464      -0.7794        decreasing
+   QQQ_VIX 20200519      -0.7462      -0.7797        decreasing
+   QQQ_VIX 20200520      -0.7521      -0.7808        decreasing
+   QQQ_VIX 20200521      -0.7532      -0.7810        decreasing
+   QQQ_VIX 20200522      -0.7535      -0.7806        decreasing
+2020-05-26 00:00:00 
+================================================================================
+2020-05-26 00:00:00 END DATAFRAME OUTPUT
+2020-05-26 00:00:00 ================================================================================
+
+2020-06-01 00:00:00 Running OHLC Correlation Analysis with 104 observations
+2020-06-01 00:00:00 TSLA: 103 valid data points
+2020-06-01 00:00:00 SPY: 103 valid data points
+2020-06-01 00:00:00 QQQ: 103 valid data points
+2020-06-01 00:00:00 VIX: 103 valid data points
+2020-06-01 00:00:00 ============================================================
+2020-06-01 00:00:00 OHLC CORRELATION ANALYSIS RESULTS
+2020-06-01 00:00:00 ============================================================
+2020-06-01 00:00:00 --- CORRELATION SUMMARY ---
+2020-06-01 00:00:00 TSLA_SPY:
+2020-06-01 00:00:00   Pearson (Returns): 0.5442
+2020-06-01 00:00:00   Spearman (Returns): 0.4393
+2020-06-01 00:00:00   Rogers-Zhou Basic: 0.4265
+2020-06-01 00:00:00   Rogers-Zhou Weighted: 0.3685
+2020-06-01 00:00:00 TSLA_QQQ:
+2020-06-01 00:00:00   Pearson (Returns): 0.5715
+2020-06-01 00:00:00   Spearman (Returns): 0.4815
+2020-06-01 00:00:00   Rogers-Zhou Basic: 0.4434
+2020-06-01 00:00:00   Rogers-Zhou Weighted: 0.3519
+2020-06-01 00:00:00 TSLA_VIX:
+2020-06-01 00:00:00   Pearson (Returns): -0.4728
+2020-06-01 00:00:00   Spearman (Returns): -0.3852
+2020-06-01 00:00:00   Rogers-Zhou Basic: -0.2916
+2020-06-01 00:00:00   Rogers-Zhou Weighted: -0.2246
+2020-06-01 00:00:00 QQQ_VIX:
+2020-06-01 00:00:00   Pearson (Returns): -0.7795
+2020-06-01 00:00:00   Spearman (Returns): -0.8140
+2020-06-01 00:00:00   Rogers-Zhou Basic: -0.4831
+2020-06-01 00:00:00   Rogers-Zhou Weighted: -0.5834
+2020-06-01 00:00:00 --- DESCRIPTIVE STATISTICS ---
+2020-06-01 00:00:00 TSLA:
+2020-06-01 00:00:00   Mean Daily Return: 0.006500
+2020-06-01 00:00:00   Volatility (Daily): 0.066216
+2020-06-01 00:00:00   Sharpe Ratio: 1.5584
+2020-06-01 00:00:00   Skewness: -0.4761
+2020-06-01 00:00:00   Kurtosis: 1.9370
+2020-06-01 00:00:00 SPY:
+2020-06-01 00:00:00   Mean Daily Return: -0.000583
+2020-06-01 00:00:00   Volatility (Daily): 0.030218
+2020-06-01 00:00:00   Sharpe Ratio: -0.3064
+2020-06-01 00:00:00   Skewness: -0.5402
+2020-06-01 00:00:00   Kurtosis: 3.3728
+2020-06-01 00:00:00 QQQ:
+2020-06-01 00:00:00   Mean Daily Return: 0.000773
+2020-06-01 00:00:00   Volatility (Daily): 0.030412
+2020-06-01 00:00:00   Sharpe Ratio: 0.4034
+2020-06-01 00:00:00   Skewness: -0.6638
+2020-06-01 00:00:00   Kurtosis: 3.9032
+2020-06-01 00:00:00 VIX:
+2020-06-01 00:00:00   Mean Daily Return: 0.007757
+2020-06-01 00:00:00   Volatility (Daily): 0.112308
+2020-06-01 00:00:00   Sharpe Ratio: 1.0964
+2020-06-01 00:00:00   Skewness: 1.2064
+2020-06-01 00:00:00   Kurtosis: 2.3700
+2020-06-01 00:00:00 --- WIN/LOSS ANALYSIS ---
+2020-06-01 00:00:00 TSLA (VIX Up Days):
+2020-06-01 00:00:00   Total Wins: 18
+2020-06-01 00:00:00   Total Losses: 28
+2020-06-01 00:00:00   Win Rate: 0.391
+2020-06-01 00:00:00 SPY (VIX Up Days):
+2020-06-01 00:00:00   Total Wins: 7
+2020-06-01 00:00:00   Total Losses: 39
+2020-06-01 00:00:00   Win Rate: 0.152
+2020-06-01 00:00:00 QQQ (VIX Up Days):
+2020-06-01 00:00:00   Total Wins: 9
+2020-06-01 00:00:00   Total Losses: 37
+2020-06-01 00:00:00   Win Rate: 0.196
+2020-06-01 00:00:00 --- WEEKLY AGGREGATION ---
+2020-06-01 00:00:00 TSLA:
+2020-06-01 00:00:00   Avg Wins/Week: 0.82
+2020-06-01 00:00:00   Avg Losses/Week: 1.27
+2020-06-01 00:00:00   Weekly Win Rate: 0.391
+2020-06-01 00:00:00 SPY:
+2020-06-01 00:00:00   Avg Wins/Week: 0.32
+2020-06-01 00:00:00   Avg Losses/Week: 1.77
+2020-06-01 00:00:00   Weekly Win Rate: 0.152
+2020-06-01 00:00:00 QQQ:
+2020-06-01 00:00:00   Avg Wins/Week: 0.41
+2020-06-01 00:00:00   Avg Losses/Week: 1.68
+2020-06-01 00:00:00   Weekly Win Rate: 0.196
+2020-06-01 00:00:00 --- CORRELATION METHOD COMPARISON ---
+2020-06-01 00:00:00 TSLA_SPY: Traditional=0.5442, OHLC=0.4265, Diff=-0.1176 (21.6% change)
+2020-06-01 00:00:00 TSLA_QQQ: Traditional=0.5715, OHLC=0.4434, Diff=-0.1281 (22.4% change)
+2020-06-01 00:00:00 TSLA_VIX: Traditional=-0.4728, OHLC=-0.2916, Diff=0.1813 (38.3% change)
+2020-06-01 00:00:00 QQQ_VIX: Traditional=-0.7795, OHLC=-0.4831, Diff=0.2964 (38.0% change)
+2020-06-01 00:00:00 
+================================================================================
+2020-06-01 00:00:00 STRUCTURED DATAFRAME OUTPUT
+2020-06-01 00:00:00 ================================================================================
+2020-06-01 00:00:00 
+--- OHLC SUMMARY DATAFRAME ---
+2020-06-01 00:00:00 ticker     date     open     high      low    close    volume  daily_diff  daily_return_pct  intraday_range_pct
+  TSLA 20200529  53.9047  55.6680  53.6133  55.6667 168610967      1.7620            3.2687              3.6910
+   SPY 20200529 280.3912 282.7088 277.6194 282.1155 110995908      1.7243            0.6150              1.8040
+   QQQ 20200529 222.9940 226.1011 221.4260 225.8785  49659955      2.8845            1.2935              2.0698
+   VIX 20200529  29.3000  30.1600  27.2900  27.5100         0     -1.7900           -6.1092             10.4326
+2020-06-01 00:00:00 
+--- CORRELATION MATRIX DATAFRAME ---
+2020-06-01 00:00:00 asset_pair  pearson_returns  spearman_returns  rogers_zhou_basic  rogers_zhou_weighted  garman_klass  correlation_spread
+  TSLA_SPY           0.5442            0.4393             0.4265                0.3685        0.6225             -0.1176
+  TSLA_QQQ           0.5715            0.4815             0.4434                0.3519        0.6456             -0.1281
+  TSLA_VIX          -0.4728           -0.3852            -0.2916               -0.2246        0.1699              0.1813
+   QQQ_VIX          -0.7795           -0.8140            -0.4831               -0.5834        0.3075              0.2964
+2020-06-01 00:00:00 
+--- STATISTICAL SUMMARY DATAFRAME ---
+2020-06-01 00:00:00 ticker  mean_daily_return  volatility_daily  sharpe_ratio  skewness  kurtosis  var_95_pct  var_99_pct  max_return  min_return
+  TSLA           0.006500          0.066216        1.5584   -0.4761    1.9370   -0.122755   -0.188313    0.181445   -0.205522
+   SPY          -0.000583          0.030218       -0.3064   -0.5402    3.3728   -0.046044   -0.100376    0.086731   -0.115887
+   QQQ           0.000773          0.030412        0.4034   -0.6638    3.9032   -0.043246   -0.095929    0.081309   -0.127592
+   VIX           0.007757          0.112308        1.0964    1.2064    2.3700   -0.137126   -0.182059    0.382167   -0.266228
+2020-06-01 00:00:00 
+--- WIN/LOSS ANALYSIS DATAFRAME ---
+2020-06-01 00:00:00 ticker  total_observations  wins_vix_up  losses_vix_up  wins_vix_down  losses_vix_down  win_rate_vix_up  win_rate_vix_down  overall_win_rate
+  TSLA                 102           18             28             38               18           0.3913             0.6786            0.5490
+   SPY                 102            7             39             48                8           0.1522             0.8571            0.5392
+   QQQ                 102            9             37             50                6           0.1957             0.8929            0.5784
+2020-06-01 00:00:00 
+--- ROLLING CORRELATION TRENDS DATAFRAME ---
+2020-06-01 00:00:00 asset_pair     date  rolling_30d  rolling_90d correlation_trend
+  TSLA_VIX 20200522      -0.4536      -0.4829        decreasing
+  TSLA_VIX 20200526      -0.5076      -0.4842        decreasing
+  TSLA_VIX 20200527      -0.4829      -0.4845        decreasing
+  TSLA_VIX 20200528      -0.5263      -0.4855        decreasing
+  TSLA_VIX 20200529      -0.5295      -0.4939        decreasing
+   QQQ_VIX 20200522      -0.7535      -0.7806        decreasing
+   QQQ_VIX 20200526      -0.7546      -0.7804        decreasing
+   QQQ_VIX 20200527      -0.7584      -0.7804        decreasing
+   QQQ_VIX 20200528      -0.7505      -0.7803        decreasing
+   QQQ_VIX 20200529      -0.7597      -0.7814        decreasing
+2020-06-01 00:00:00 
+================================================================================
+2020-06-01 00:00:00 END DATAFRAME OUTPUT
+2020-06-01 00:00:00 ================================================================================
+
+2020-06-08 00:00:00 Running OHLC Correlation Analysis with 109 observations
+2020-06-08 00:00:00 TSLA: 108 valid data points
+2020-06-08 00:00:00 SPY: 108 valid data points
+2020-06-08 00:00:00 QQQ: 108 valid data points
+2020-06-08 00:00:00 VIX: 108 valid data points
+2020-06-08 00:00:00 ============================================================
+2020-06-08 00:00:00 OHLC CORRELATION ANALYSIS RESULTS
+2020-06-08 00:00:00 ============================================================
+2020-06-08 00:00:00 --- CORRELATION SUMMARY ---
+2020-06-08 00:00:00 TSLA_SPY:
+2020-06-08 00:00:00   Pearson (Returns): 0.5403
+2020-06-08 00:00:00   Spearman (Returns): 0.4270
+2020-06-08 00:00:00   Rogers-Zhou Basic: 0.4226
+2020-06-08 00:00:00   Rogers-Zhou Weighted: 0.3496
+2020-06-08 00:00:00 TSLA_QQQ:
+2020-06-08 00:00:00   Pearson (Returns): 0.5687
+2020-06-08 00:00:00   Spearman (Returns): 0.4717
+2020-06-08 00:00:00   Rogers-Zhou Basic: 0.4438
+2020-06-08 00:00:00   Rogers-Zhou Weighted: 0.3536
+2020-06-08 00:00:00 TSLA_VIX:
+2020-06-08 00:00:00   Pearson (Returns): -0.4652
+2020-06-08 00:00:00   Spearman (Returns): -0.3636
+2020-06-08 00:00:00   Rogers-Zhou Basic: -0.2925
+2020-06-08 00:00:00   Rogers-Zhou Weighted: -0.2083
+2020-06-08 00:00:00 QQQ_VIX:
+2020-06-08 00:00:00   Pearson (Returns): -0.7791
+2020-06-08 00:00:00   Spearman (Returns): -0.8108
+2020-06-08 00:00:00   Rogers-Zhou Basic: -0.4820
+2020-06-08 00:00:00   Rogers-Zhou Weighted: -0.5743
+2020-06-08 00:00:00 --- DESCRIPTIVE STATISTICS ---
+2020-06-08 00:00:00 TSLA:
+2020-06-08 00:00:00   Mean Daily Return: 0.006747
+2020-06-08 00:00:00   Volatility (Daily): 0.065082
+2020-06-08 00:00:00   Sharpe Ratio: 1.6457
+2020-06-08 00:00:00   Skewness: -0.4798
+2020-06-08 00:00:00   Kurtosis: 2.0515
+2020-06-08 00:00:00 SPY:
+2020-06-08 00:00:00   Mean Daily Return: -0.000106
+2020-06-08 00:00:00   Volatility (Daily): 0.029647
+2020-06-08 00:00:00   Sharpe Ratio: -0.0566
+2020-06-08 00:00:00   Skewness: -0.5861
+2020-06-08 00:00:00   Kurtosis: 3.5863
+2020-06-08 00:00:00 QQQ:
+2020-06-08 00:00:00   Mean Daily Return: 0.000987
+2020-06-08 00:00:00   Volatility (Daily): 0.029760
+2020-06-08 00:00:00   Sharpe Ratio: 0.5264
+2020-06-08 00:00:00   Skewness: -0.6939
+2020-06-08 00:00:00   Kurtosis: 4.1829
+2020-06-08 00:00:00 VIX:
+2020-06-08 00:00:00   Mean Daily Return: 0.006319
+2020-06-08 00:00:00   Volatility (Daily): 0.110047
+2020-06-08 00:00:00   Sharpe Ratio: 0.9116
+2020-06-08 00:00:00   Skewness: 1.2567
+2020-06-08 00:00:00   Kurtosis: 2.6114
+2020-06-08 00:00:00 --- WIN/LOSS ANALYSIS ---
+2020-06-08 00:00:00 TSLA (VIX Up Days):
+2020-06-08 00:00:00   Total Wins: 19
+2020-06-08 00:00:00   Total Losses: 29
+2020-06-08 00:00:00   Win Rate: 0.396
+2020-06-08 00:00:00 SPY (VIX Up Days):
+2020-06-08 00:00:00   Total Wins: 8
+2020-06-08 00:00:00   Total Losses: 40
+2020-06-08 00:00:00   Win Rate: 0.167
+2020-06-08 00:00:00 QQQ (VIX Up Days):
+2020-06-08 00:00:00   Total Wins: 10
+2020-06-08 00:00:00   Total Losses: 38
+2020-06-08 00:00:00   Win Rate: 0.208
+2020-06-08 00:00:00 --- WEEKLY AGGREGATION ---
+2020-06-08 00:00:00 TSLA:
+2020-06-08 00:00:00   Avg Wins/Week: 0.83
+2020-06-08 00:00:00   Avg Losses/Week: 1.26
+2020-06-08 00:00:00   Weekly Win Rate: 0.396
+2020-06-08 00:00:00 SPY:
+2020-06-08 00:00:00   Avg Wins/Week: 0.35
+2020-06-08 00:00:00   Avg Losses/Week: 1.74
+2020-06-08 00:00:00   Weekly Win Rate: 0.167
+2020-06-08 00:00:00 QQQ:
+2020-06-08 00:00:00   Avg Wins/Week: 0.43
+2020-06-08 00:00:00   Avg Losses/Week: 1.65
+2020-06-08 00:00:00   Weekly Win Rate: 0.208
+2020-06-08 00:00:00 --- CORRELATION METHOD COMPARISON ---
+2020-06-08 00:00:00 TSLA_SPY: Traditional=0.5403, OHLC=0.4226, Diff=-0.1177 (21.8% change)
+2020-06-08 00:00:00 TSLA_QQQ: Traditional=0.5687, OHLC=0.4438, Diff=-0.1249 (22.0% change)
+2020-06-08 00:00:00 TSLA_VIX: Traditional=-0.4652, OHLC=-0.2925, Diff=0.1727 (37.1% change)
+2020-06-08 00:00:00 QQQ_VIX: Traditional=-0.7791, OHLC=-0.4820, Diff=0.2970 (38.1% change)
+2020-06-08 00:00:00 
+================================================================================
+2020-06-08 00:00:00 STRUCTURED DATAFRAME OUTPUT
+2020-06-08 00:00:00 ================================================================================
+2020-06-08 00:00:00 
+--- OHLC SUMMARY DATAFRAME ---
+2020-06-08 00:00:00 ticker     date     open     high      low    close    volume  daily_diff  daily_return_pct  intraday_range_pct
+  TSLA 20200605  58.5987  59.1013  57.7467  59.0440 112044011      0.4453            0.7600              2.2943
+   SPY 20200605 294.2504 297.8334 294.0279 296.0396 133231008      1.7892            0.6080              1.2855
+   QQQ 20200605 228.6468 232.5863 228.0660 232.0056  44414419      3.3588            1.4690              1.9483
+   VIX 20200605  24.7900  25.0900  23.5400  24.5200         0     -0.2700           -1.0891              6.3214
+2020-06-08 00:00:00 
+--- CORRELATION MATRIX DATAFRAME ---
+2020-06-08 00:00:00 asset_pair  pearson_returns  spearman_returns  rogers_zhou_basic  rogers_zhou_weighted  garman_klass  correlation_spread
+  TSLA_SPY           0.5403            0.4270             0.4226                0.3496        0.6268             -0.1177
+  TSLA_QQQ           0.5687            0.4717             0.4438                0.3536        0.6494             -0.1249
+  TSLA_VIX          -0.4652           -0.3636            -0.2925               -0.2083        0.1800              0.1727
+   QQQ_VIX          -0.7791           -0.8108            -0.4820               -0.5743        0.3139              0.2970
+2020-06-08 00:00:00 
+--- STATISTICAL SUMMARY DATAFRAME ---
+2020-06-08 00:00:00 ticker  mean_daily_return  volatility_daily  sharpe_ratio  skewness  kurtosis  var_95_pct  var_99_pct  max_return  min_return
+  TSLA           0.006747          0.065082        1.6457   -0.4798    2.0515   -0.119066   -0.187629    0.181445   -0.205522
+   SPY          -0.000106          0.029647       -0.0566   -0.5861    3.5863   -0.046020   -0.099414    0.086731   -0.115887
+   QQQ           0.000987          0.029760        0.5264   -0.6939    4.1829   -0.042382   -0.094721    0.081309   -0.127592
+   VIX           0.006319          0.110047        0.9116    1.2567    2.6114   -0.131722   -0.179996    0.382167   -0.266228
+2020-06-08 00:00:00 
+--- WIN/LOSS ANALYSIS DATAFRAME ---
+2020-06-08 00:00:00 ticker  total_observations  wins_vix_up  losses_vix_up  wins_vix_down  losses_vix_down  win_rate_vix_up  win_rate_vix_down  overall_win_rate
+  TSLA                 107           19             29             40               19           0.3958             0.6780            0.5514
+   SPY                 107            8             40             51                8           0.1667             0.8644            0.5514
+   QQQ                 107           10             38             53                6           0.2083             0.8983            0.5888
+2020-06-08 00:00:00 
+--- ROLLING CORRELATION TRENDS DATAFRAME ---
+2020-06-08 00:00:00 asset_pair     date  rolling_30d  rolling_90d correlation_trend
+  TSLA_VIX 20200601      -0.4781      -0.4901        increasing
+  TSLA_VIX 20200602      -0.4744      -0.4872        increasing
+  TSLA_VIX 20200603      -0.4569      -0.4863        increasing
+  TSLA_VIX 20200604      -0.4389      -0.4905        increasing
+  TSLA_VIX 20200605      -0.4514      -0.4923        increasing
+   QQQ_VIX 20200601      -0.7548      -0.7812        decreasing
+   QQQ_VIX 20200602      -0.7552      -0.7810        decreasing
+   QQQ_VIX 20200603      -0.7930      -0.7818        decreasing
+   QQQ_VIX 20200604      -0.7931      -0.7849        decreasing
+   QQQ_VIX 20200605      -0.7933      -0.7858        decreasing
+2020-06-08 00:00:00 
+================================================================================
+2020-06-08 00:00:00 END DATAFRAME OUTPUT
+2020-06-08 00:00:00 ================================================================================
+
+2020-06-15 00:00:00 Running OHLC Correlation Analysis with 114 observations
+2020-06-15 00:00:00 TSLA: 113 valid data points
+2020-06-15 00:00:00 SPY: 113 valid data points
+2020-06-15 00:00:00 QQQ: 113 valid data points
+2020-06-15 00:00:00 VIX: 113 valid data points
+2020-06-15 00:00:00 ============================================================
+2020-06-15 00:00:00 OHLC CORRELATION ANALYSIS RESULTS
+2020-06-15 00:00:00 ============================================================
+2020-06-15 00:00:00 --- CORRELATION SUMMARY ---
+2020-06-15 00:00:00 TSLA_SPY:
+2020-06-15 00:00:00   Pearson (Returns): 0.5362
+2020-06-15 00:00:00   Spearman (Returns): 0.4216
+2020-06-15 00:00:00   Rogers-Zhou Basic: 0.4265
+2020-06-15 00:00:00   Rogers-Zhou Weighted: 0.3512
+2020-06-15 00:00:00 TSLA_QQQ:
+2020-06-15 00:00:00   Pearson (Returns): 0.5688
+2020-06-15 00:00:00   Spearman (Returns): 0.4775
+2020-06-15 00:00:00   Rogers-Zhou Basic: 0.4466
+2020-06-15 00:00:00   Rogers-Zhou Weighted: 0.3589
+2020-06-15 00:00:00 TSLA_VIX:
+You currently have a maximum of 100kb of log data per backtest, and 100kb total max per day. Have you tried step-by-step debugging? See more at https://qnt.co/debugging or upgrade your organization type for more logs at https://www.quantconnect.com/pricing
